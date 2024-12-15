@@ -2,6 +2,9 @@ import React, { useState, ChangeEvent, FormEvent } from "react";
 import rightImg from "../assets/images/right-top-img.png";
 import logo from "../assets/images/logo.png";
 import { EyeIcon, EyeIconOpen, GoogleIcon } from "./common/Icons.jsx";
+import TextInput from "./common/TextInput.tsx";
+import PasswordInput from "./common/PasswordInput.tsx";
+import PrimaryBtn from "./common/PrimaryBtn.tsx";
 
 interface FormData {
   email: string;
@@ -28,6 +31,7 @@ const Login: React.FC = () => {
     e.preventDefault();
     if (formdata.email && formdata.password) {
       alert("Form submitted successfully!");
+      console.log(formdata, "formadata");
       setFormData(initialState);
     }
   };
@@ -57,20 +61,7 @@ const Login: React.FC = () => {
             <span className="text-[#000000] opacity-35">OR</span>
             <span className="inline-block w-[40%] h-[2px] bg-[#000000] bg-opacity-15"></span>
           </div>
-          <label
-            className="text-[#000000] opacity-45 text-base font-normal flex justify-center sm:justify-start"
-            htmlFor="email"
-          >
-            Email address*
-          </label>
-          <input
-            id="email"
-            onChange={(e) => onInputChange(e, "email")}
-            className="bg-[#F4F4F6] block w-full py-2 mt-1 rounded-[10px] px-3 text-sm"
-            type="email"
-            required
-            value={formdata.email}
-          />
+          <TextInput onInputChange={onInputChange} formdata={formdata} />
           <div className="flex sm:justify-between mt-5 justify-center">
             <label
               className="text-[#000000] opacity-45 text-base font-normal"
@@ -85,22 +76,12 @@ const Login: React.FC = () => {
               Forgot password
             </a>
           </div>
-          <div className="relative">
-            <input
-              id="password"
-              required
-              onChange={(e) => onInputChange(e, "password")}
-              value={formdata.password}
-              className="bg-[#F4F4F6] block w-full py-2 mt-1 rounded-[10px] px-3 text-sm"
-              type={!show ? "text" : "password"}
-            />
-            <span
-              onClick={() => setShow(!show)}
-              className="absolute right-[10px] top-[50%] translate-y-[-50%] cursor-pointer"
-            >
-              {show ? <EyeIconOpen /> : <EyeIcon />}
-            </span>
-          </div>
+          <PasswordInput
+            onInputChange={onInputChange}
+            formdata={formdata}
+            show={show}
+            setShow={setShow}
+          />
           <div className="text-center">
             <a
               className="sm:text-[13px] text-[10px] font-normal text-[#0027B4] underline hover:text-[#FF5C00] transition-all duration-300 ease-in-out text-center sm:hidden"
@@ -109,12 +90,8 @@ const Login: React.FC = () => {
               Forgot password
             </a>
           </div>
-          <button
-            type="submit"
-            className="bg-[#FF5C00] rounded-[10px] text-white sm:py-[7px] py-[4px] px-5 w-full mt-7 font-bold hover:bg-transparent hover:text-[#FF5C00] border-[1px] border-transparent hover:border-[#FF5C00] transition-all duration-300 ease-in-out sm:text-[18px] text-base"
-          >
-            LOGIN
-          </button>
+          <PrimaryBtn text="LOGIN" />
+
           <div className="sm:flex justify-between text-center sm:text-start sm:mt-2 mt-5">
             <label
               className="text-[#000000] opacity-77 sm:text-[18px] text-[13px] sm:font-medium font-bold"
@@ -128,12 +105,9 @@ const Login: React.FC = () => {
             >
               Sign up
             </a>
-            <button
-              type="button"
-              className="bg-[#FF5C00] sm:hidden rounded-[10px] text-white sm:py-[7px] py-[4px] px-5 w-full font-bold hover:bg-transparent hover:text-[#FF5C00] border-[1px] border-transparent hover:border-[#FF5C00] transition-all duration-300 ease-in-out sm:text-[18px] text-base"
-            >
-              REGISTER
-            </button>
+            <div className="sm:hidden">
+              <PrimaryBtn text="REGISTER" />
+            </div>
           </div>
         </div>
         <div className="text-center absolute sm:bottom-[10px] bottom-[-30px]">

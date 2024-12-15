@@ -10,7 +10,7 @@ const Login = () => {
   };
   const [formdata, setFormData] = useState(initialState);
   const [show, setShow] = useState(true);
-  const onSubmitHandler = (e) => {
+  const onSubmitHandler = (e: any) => {
     e.preventDefault();
     if (formdata.email && formdata.password) {
       alert("Form submitted successfully!");

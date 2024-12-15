@@ -5,6 +5,7 @@ import { EyeIcon, EyeIconOpen, GoogleIcon } from "./common/Icons.jsx";
 import TextInput from "./common/TextInput.tsx";
 import PasswordInput from "./common/PasswordInput.tsx";
 import PrimaryBtn from "./common/PrimaryBtn.tsx";
+import { Link } from "react-router-dom";
 
 interface FormData {
   email: string;
@@ -65,19 +66,19 @@ const Login: React.FC = () => {
 
           <PasswordInput
             onInputChange={onInputChange}
-            formdata={formdata}
+            formdata={formdata.password}
             show={show}
             setShow={setShow}
             label="Password"
             forgotPassword={true}
           />
           <div className="text-center">
-            <a
+            <Link
               className="sm:text-[13px] text-[10px] font-normal text-blue underline hover:text-primary smoothness text-center sm:hidden"
-              href="#"
+              to="/reset-password"
             >
               Forgot password
-            </a>
+            </Link>
           </div>
           <div className="sm:mt-7 mt-5">
             <PrimaryBtn text="LOGIN" />

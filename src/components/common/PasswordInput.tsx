@@ -11,7 +11,7 @@ interface PasswordInputProps {
     e: React.ChangeEvent<HTMLInputElement>,
     field: "password"
   ) => void;
-  formdata: { password: string };
+  formdata: string;
 }
 
 const PasswordInput: React.FC<PasswordInputProps> = ({
@@ -44,7 +44,7 @@ const PasswordInput: React.FC<PasswordInputProps> = ({
         id="password"
         required
         onChange={(e) => onInputChange(e, "password")}
-        value={formdata.password}
+        value={formdata}
         className="bg-[#F4F4F6] block w-full py-2 mt-1 rounded-[10px] px-3 text-sm"
         type={show ? "password" : "text"}
       />

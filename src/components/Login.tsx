@@ -90,7 +90,9 @@ const Login: React.FC = () => {
               Forgot password
             </a>
           </div>
-          <PrimaryBtn text="LOGIN" />
+          <div className="sm:mt-7 mt-5">
+            <PrimaryBtn text="LOGIN" />
+          </div>
 
           <div className="sm:flex justify-between text-center sm:text-start sm:mt-2 mt-5">
             <label

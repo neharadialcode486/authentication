@@ -2,7 +2,24 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        xxs: "10px",
+        xs: "13px",
+        sm: "15px",
+        base: "16px",
+        md: "18px",
+        lg: "30px",
+        xl: "36px",
+      },
+      colors: {
+        primary: "#FF5C00",
+        grey: "#F4F4F6",
+      },
+      borderRadius: {
+        ten: "10px",
+      },
+    },
   },
   plugins: [],
 };

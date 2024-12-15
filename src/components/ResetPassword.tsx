@@ -51,7 +51,7 @@ const ResetPassword: React.FC = () => {
           <TextInput onInputChange={onInputChange} formdata={formdata} />
 
           <div className="sm:mt-7 mt-5">
-            <PrimaryBtn text="LOGIN" />
+            <PrimaryBtn text="RESET PASSWORD" />
           </div>
         </div>
         <Copyright />

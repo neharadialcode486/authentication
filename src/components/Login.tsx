@@ -62,25 +62,14 @@ const Login: React.FC = () => {
             <span className="inline-block w-[40%] h-[2px] bg-black bg-opacity-15"></span>
           </div>
           <TextInput onInputChange={onInputChange} formdata={formdata} />
-          <div className="flex sm:justify-between mt-5 justify-center">
-            <label
-              className="text-black opacity-45 text-base font-normal"
-              htmlFor="password"
-            >
-              Password
-            </label>
-            <a
-              className="text-[13px] font-normal text-blue underline hover:text-primary smoothness hidden sm:block"
-              href="#"
-            >
-              Forgot password
-            </a>
-          </div>
+
           <PasswordInput
             onInputChange={onInputChange}
             formdata={formdata}
             show={show}
             setShow={setShow}
+            label="Password"
+            forgotPassword={true}
           />
           <div className="text-center">
             <a

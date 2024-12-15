@@ -51,26 +51,26 @@ const Login: React.FC = () => {
           </h1>
           <button
             type="button"
-            className="w-full rounded-[10px] sm:rounded-none border-[2px] flex gap-4 items-center border-[#B1ADC0] sm:px-10 px-5 sm:py-3 py-[5px] ff_lato text-[#64626C] justify-center hover:border-[#FF5C00] transition-all duration-300 ease-in-out"
+            className="w-full rounded-[10px] sm:rounded-none border-[2px] flex gap-4 items-center border-[#B1ADC0] sm:px-10 px-5 sm:py-3 py-[5px] ff_lato text-[#64626C] justify-center hover:border-primary smoothness"
           >
             <GoogleIcon />
             Sign in with Google
           </button>
           <div className="flex gap-4 items-center justify-between py-5">
-            <span className="inline-block w-[40%] h-[2px] bg-[#000000] bg-opacity-15"></span>
-            <span className="text-[#000000] opacity-35">OR</span>
-            <span className="inline-block w-[40%] h-[2px] bg-[#000000] bg-opacity-15"></span>
+            <span className="inline-block w-[40%] h-[2px] bg-black bg-opacity-15"></span>
+            <span className="text-black opacity-35">OR</span>
+            <span className="inline-block w-[40%] h-[2px] bg-black bg-opacity-15"></span>
           </div>
           <TextInput onInputChange={onInputChange} formdata={formdata} />
           <div className="flex sm:justify-between mt-5 justify-center">
             <label
-              className="text-[#000000] opacity-45 text-base font-normal"
+              className="text-black opacity-45 text-base font-normal"
               htmlFor="password"
             >
               Password
             </label>
             <a
-              className="text-[13px] font-normal text-[#0027B4] underline hover:text-[#FF5C00] transition-all duration-300 ease-in-out hidden sm:block"
+              className="text-[13px] font-normal text-blue underline hover:text-primary smoothness hidden sm:block"
               href="#"
             >
               Forgot password
@@ -84,7 +84,7 @@ const Login: React.FC = () => {
           />
           <div className="text-center">
             <a
-              className="sm:text-[13px] text-[10px] font-normal text-[#0027B4] underline hover:text-[#FF5C00] transition-all duration-300 ease-in-out text-center sm:hidden"
+              className="sm:text-[13px] text-[10px] font-normal text-blue underline hover:text-primary smoothness text-center sm:hidden"
               href="#"
             >
               Forgot password
@@ -96,13 +96,13 @@ const Login: React.FC = () => {
 
           <div className="sm:flex justify-between text-center sm:text-start sm:mt-2 mt-5">
             <label
-              className="text-[#000000] opacity-77 sm:text-[18px] text-[13px] sm:font-medium font-bold"
+              className="text-black opacity-77 sm:text-md text-xs sm:font-medium font-bold"
               htmlFor=""
             >
               Not a member?
             </label>
             <a
-              className="sm:text-[18px] text-base font-normal text-[#0027B4] underline hover:text-[#FF5C00] transition-all duration-300 ease-in-out hidden sm:block"
+              className="sm:text-md text-base font-normal text-blue underline hover:text-primary smoothness hidden sm:block"
               href="#"
             >
               Sign up
@@ -113,10 +113,10 @@ const Login: React.FC = () => {
           </div>
         </div>
         <div className="text-center absolute sm:bottom-[10px] bottom-[-30px]">
-          <p className="text-[#000000] opacity-25 text-[12px] font-bold">
+          <p className="text-black opacity-25 text-[12px] font-bold">
             justgetleads Inc.
           </p>
-          <p className="text-[#000000] opacity-25 text-[12px] font-normal">
+          <p className="text-black opacity-25 text-[12px] font-normal">
             all rights reserved
           </p>
         </div>

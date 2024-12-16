@@ -39,7 +39,7 @@ const SignUp: React.FC = () => {
     e.preventDefault();
     if (formdata.email && formdata.password) {
       alert("Form submitted successfully!");
-      console.log(formdata, "formadata");
+      console.log(formdata, "formadata sign-up");
       setFormData(initialState);
     }
   };
@@ -113,24 +113,6 @@ const SignUp: React.FC = () => {
           </div>
           <div className="sm:mt-7 mt-5">
             <PrimaryBtn text="LOGIN" />
-          </div>
-
-          <div className="sm:flex justify-between text-center sm:text-start sm:mt-2 mt-5">
-            <label
-              className="text-black opacity-77 sm:text-md text-xs sm:font-medium font-bold"
-              htmlFor=""
-            >
-              Not a member?
-            </label>
-            <a
-              className="sm:text-md text-base font-normal text-blue underline hover:text-primary smoothness hidden sm:block"
-              href="#"
-            >
-              Sign up
-            </a>
-            <div className="sm:hidden">
-              <PrimaryBtn text="REGISTER" />
-            </div>
           </div>
         </div>
         <div className="text-center absolute sm:bottom-[10px] bottom-[-30px]">

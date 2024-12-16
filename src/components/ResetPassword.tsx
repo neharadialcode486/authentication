@@ -28,6 +28,7 @@ const ResetPassword: React.FC = () => {
     e.preventDefault();
     if (formdata.email) {
       alert("Form submitted successfully!");
+      console.log(formdata, "reset password");
       setFormData(initialState);
     }
   };

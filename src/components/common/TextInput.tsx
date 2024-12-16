@@ -5,7 +5,7 @@ interface TextInputProps {
   label: string;
   onInputChange: (
     e: React.ChangeEvent<HTMLInputElement>,
-    field: "email"
+    field: string
   ) => void;
 }
 
@@ -25,9 +25,9 @@ const TextInput: React.FC<TextInputProps> = ({
         </label>
         <input
           id="email"
-          onChange={(e) => onInputChange(e, "email")}
+          onChange={(e) => onInputChange(e, formdata)}
           className="bg-[#F4F4F6] block w-full py-2 mt-1 rounded-[10px] px-3 text-sm"
-          type="email"
+          type={formdata === "email" ? "email" : "text"}
           required
           value={formdata}
         />

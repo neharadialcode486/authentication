@@ -32,7 +32,7 @@ const Login: React.FC = () => {
     e.preventDefault();
     if (formdata.email && formdata.password) {
       alert("Form submitted successfully!");
-      console.log(formdata, "formadata");
+      console.log(formdata, "formadata login");
       setFormData(initialState);
     }
   };
@@ -102,7 +102,12 @@ const Login: React.FC = () => {
               Sign up
             </a>
             <div className="sm:hidden">
-              <PrimaryBtn text="REGISTER" />
+              <Link
+                className="bg-primary rounded-[10px] text-white py-[7px] px-5 w-full inline-block font-bold hover:bg-transparent hover:text-primary border-[1px] border-transparent hover:border-primary smoothness sm:text-md text-base"
+                to="/sign-up"
+              >
+                REGISTER
+              </Link>
             </div>
           </div>
         </div>

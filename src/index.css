@@ -9,7 +9,10 @@ body {
 .ff_lato {
   font-family: "Lato", sans-serif;
 }
-
+.custom_height {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+}
 @layer {
   .smoothness {
     @apply transition-all duration-300 ease-in-out;

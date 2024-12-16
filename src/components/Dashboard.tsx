@@ -3,19 +3,12 @@ import Sidebar from "./common/Sidebar.tsx";
 
 const Dashboard = () => {
   return (
-    <div>
-      <div className="flex">
-        <div className="w-[100px] bg-primary h-screen hidden sm:block">
-          <Sidebar />
-        </div>
+    <div className="">
+      <div className="flex bg-[#F4F2F3]">
+        <Sidebar />
         <div className="w-full">
-          <div className="bg-primary">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            placeat reprehenderit voluptas doloremque illum cum fugiat a
-            voluptatem sequi sit eligendi aliquam reiciendis deleniti laborum
-            perspiciatis distinctio, hic minima! Veniam!
-          </div>
-          <div className="custom_height">
+          <div className="bg-white h-[100px]"></div>
+          <div className="custom_height py-5 px-8">
             <p className="text-[100px]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
               hic, amet quae soluta rem iure incidunt aspernatur eaque dicta

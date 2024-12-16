@@ -201,3 +201,269 @@ export const WecomeLogo = () => (
     />
   </svg>
 );
+export const Icon1 = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M9.19995 11.7H14.2"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M11.7 14.2V9.20001"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M22 22L20 20"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+export const Icon2 = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M9.19995 11.7H14.2"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M11.7 14.2V9.20001"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M22 22L20 20"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+export const Icon3 = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M9.19995 11.7H14.2"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M11.7 14.2V9.20001"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M22 22L20 20"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+export const Icon4 = () => (
+  <svg
+    width="23"
+    height="23"
+    viewBox="0 0 23 23"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M8.58752 10.1906C8.49377 10.1813 8.38127 10.1813 8.27815 10.1906C6.0469 10.1156 4.27502 8.2875 4.27502 6.0375C4.27502 3.74063 6.13127 1.875 8.43752 1.875C10.7344 1.875 12.6 3.74063 12.6 6.0375C12.5906 8.2875 10.8188 10.1156 8.58752 10.1906Z"
+      stroke="white"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M15.3844 3.75C17.2032 3.75 18.6657 5.22187 18.6657 7.03125C18.6657 8.80312 17.2594 10.2469 15.5063 10.3125C15.4313 10.3031 15.3469 10.3031 15.2626 10.3125"
+      stroke="white"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M3.89993 13.65C1.63118 15.1688 1.63118 17.6438 3.89993 19.1531C6.47805 20.8781 10.7062 20.8781 13.2843 19.1531C15.5531 17.6344 15.5531 15.1594 13.2843 13.65C10.7156 11.9344 6.48743 11.9344 3.89993 13.65Z"
+      stroke="white"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M17.1938 18.75C17.8688 18.6094 18.5063 18.3375 19.0313 17.9344C20.4938 16.8375 20.4938 15.0281 19.0313 13.9312C18.5157 13.5375 17.8876 13.275 17.222 13.125"
+      stroke="white"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+export const Icon5 = () => (
+  <svg
+    width="23"
+    height="23"
+    viewBox="0 0 23 23"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M8.58752 10.1906C8.49377 10.1813 8.38127 10.1813 8.27815 10.1906C6.0469 10.1156 4.27502 8.2875 4.27502 6.0375C4.27502 3.74063 6.13127 1.875 8.43752 1.875C10.7344 1.875 12.6 3.74063 12.6 6.0375C12.5906 8.2875 10.8188 10.1156 8.58752 10.1906Z"
+      stroke="white"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M15.3844 3.75C17.2032 3.75 18.6657 5.22187 18.6657 7.03125C18.6657 8.80312 17.2594 10.2469 15.5063 10.3125C15.4313 10.3031 15.3469 10.3031 15.2626 10.3125"
+      stroke="white"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M3.89993 13.65C1.63118 15.1688 1.63118 17.6438 3.89993 19.1531C6.47805 20.8781 10.7062 20.8781 13.2843 19.1531C15.5531 17.6344 15.5531 15.1594 13.2843 13.65C10.7156 11.9344 6.48743 11.9344 3.89993 13.65Z"
+      stroke="white"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M17.1938 18.75C17.8688 18.6094 18.5063 18.3375 19.0313 17.9344C20.4938 16.8375 20.4938 15.0281 19.0313 13.9312C18.5157 13.5375 17.8876 13.275 17.222 13.125"
+      stroke="white"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+export const Icon6 = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M17 21H7C3 21 2 20 2 16V8C2 4 3 3 7 3H17C21 3 22 4 22 8V16C22 20 21 21 17 21Z"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M14 8H19"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M15 12H19"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M17 16H19"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M8.49994 11.29C9.49958 11.29 10.3099 10.4797 10.3099 9.48004C10.3099 8.48041 9.49958 7.67004 8.49994 7.67004C7.50031 7.67004 6.68994 8.48041 6.68994 9.48004C6.68994 10.4797 7.50031 11.29 8.49994 11.29Z"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M12 16.33C11.86 14.88 10.71 13.74 9.26 13.61C8.76 13.56 8.25 13.56 7.74 13.61C6.29 13.75 5.14 14.88 5 16.33"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+export const Icon7 = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M7.16004 22C2.98004 22 2.14004 19.47 3.50004 16.39L7.75004 6.74H7.45004C6.80004 6.74 6.20004 6.48 5.77004 6.05C5.33004 5.62 5.07004 5.02 5.07004 4.37C5.07004 3.07 6.13004 2 7.44004 2H14.55C15.21 2 15.8 2.27 16.23 2.7C16.79 3.26 17.07 4.08 16.86 4.95C16.59 6.03 15.55 6.74 14.44 6.74H14.28L18.5 16.4C19.85 19.48 18.97 22 14.83 22H7.16004Z"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M4.93994 13.12C4.93994 13.12 7.99994 13 10.9999 14C13.9999 15 16.8299 13.11 16.8299 13.11"
+      stroke="#F1F1F1"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);

@@ -46,7 +46,7 @@ const SignUp: React.FC = () => {
 
   return (
     <form onSubmit={onSubmitHandler} className="relative">
-      <div className="h-screen flex flex-col justify-center items-center px-4 mb-10 sm:mb-0 min-h-[600px]">
+      <div className="h-screen flex flex-col justify-center items-center px-4 mb-10 sm:mb-0 min-h-[600px] mt-4 sm:mt-0">
         <img
           className="absolute bottom-0 right-0 rotate-[-270deg] 2xl:h-[20vw] 2xl:w-[20vw] md:w-[300px] lg:w-[400px] md:h-[300px]  lg:h-[400px] sm:w-[170px] w-[120px] sm:h-[170px] h-[120px] pointer-events-none z-[-1] hidden sm:block"
           src={rightImg}
@@ -69,7 +69,7 @@ const SignUp: React.FC = () => {
             <span className="text-black opacity-35">OR</span>
             <span className="inline-block w-[40%] h-[2px] bg-black bg-opacity-15"></span>
           </div>
-          <div className="flex gap-5 mb-5">
+          <div className="flex flex-col sm:flex-row gap-5 mb-5">
             <TextInput
               onInputChange={(e) => onInputChange(e, "firstName")}
               formdata={formdata.firstName}
@@ -115,7 +115,7 @@ const SignUp: React.FC = () => {
             <PrimaryBtn text="LOGIN" />
           </div>
         </div>
-        <div className="text-center absolute sm:bottom-[10px] bottom-[-30px]">
+        <div className="text-center absolute sm:bottom-[10px] bottom-[-70px]">
           <p className="text-black opacity-25 text-[12px] font-bold">
             justgetleads Inc.
           </p>

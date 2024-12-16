@@ -36,12 +36,12 @@ const ResetPassword: React.FC = () => {
     <form onSubmit={onSubmitHandler} className="relative">
       <div className="h-screen flex flex-col justify-center items-center px-4 pb-10 sm:pb-0 min-h-[600px]">
         <img
-          className="absolute top-0 left-0 rotate-[270deg] 2xl:h-[20vw] 2xl:w-[20vw] md:w-[300px] lg:w-[400px] md:h-[300px]  lg:h-[400px] sm:w-[170px] w-[120px] sm:h-[170px] h-[120px] pointer-events-none z-[-1] hidden sm:block"
+          className="absolute top-0 left-0 rotate-[270deg] 2xl:h-[20vw] 2xl:w-[20vw] md:w-[300px] lg:w-[350px] md:h-[300px]  lg:h-[350px] sm:w-[170px] w-[120px] sm:h-[170px] h-[120px] pointer-events-none z-[1] hidden sm:block"
           src={rightImg}
           alt="Background decoration"
         />
         <img src={logo} alt="Logo" className="mb-2 sm:hidden" />
-        <div className="w-full max-w-[320px]">
+        <div className="w-full max-w-[320px] z-10">
           <h1 className="text-lg font-medium sm:font-bold sm:pb-1 pb-2 text-center sm:uppercase">
             Password reset
           </h1>

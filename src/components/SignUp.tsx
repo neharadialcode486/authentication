@@ -54,11 +54,11 @@ const SignUp: React.FC = () => {
     <form onSubmit={onSubmitHandler} className="relative">
       <div className="md:h-screen flex flex-col justify-center items-center px-4 pb-10 pt-[15%] sm:pt-0  sm:pb-0 min-h-[880px] mt-4 sm:mt-0">
         <img
-          className="absolute bottom-0 right-0 rotate-[-270deg] 2xl:h-[20vw] 2xl:w-[20vw] md:w-[300px] lg:w-[400px] md:h-[300px]  lg:h-[400px] sm:w-[170px] w-[120px] sm:h-[170px] h-[120px] pointer-events-none z-[-1] hidden sm:block"
+          className="absolute bottom-0 right-0 rotate-[-270deg] 2xl:h-[20vw] 2xl:w-[20vw] md:w-[300px] lg:w-[400px] md:h-[300px]  lg:h-[400px] sm:w-[170px] w-[120px] sm:h-[170px] h-[120px] pointer-events-none z-[1] hidden sm:block"
           src={rightImg}
           alt="Background decoration"
         />
-        <div className="w-full max-w-[300px]">
+        <div className="w-full max-w-[300px] z-10">
           <WecomeLogo />
           <h1 className="sm:text-[36px] text-[30px] font-medium sm:pb-3 pb-7 text-center pt-2">
             Welcome!

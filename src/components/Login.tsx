@@ -42,12 +42,12 @@ const Login: React.FC = () => {
     <form onSubmit={onSubmitHandler} className="relative">
       <div className="md:h-screen flex flex-col justify-center items-center px-4 pb-[15%] sm:pb-0 min-h-[750px]">
         <img
-          className="absolute top-0 right-0 2xl:h-[20vw] 2xl:w-[20vw] md:w-[300px] lg:w-[400px] md:h-[300px]  lg:h-[400px] sm:w-[170px] w-[120px] sm:h-[170px] h-[120px] pointer-events-none z-[-1] hidden sm:block"
+          className="absolute top-0 right-0 2xl:h-[20vw] 2xl:w-[20vw] md:w-[300px] lg:w-[350px] md:h-[300px]  lg:h-[350px] sm:w-[170px] w-[120px] sm:h-[170px] h-[120px] pointer-events-none z-[0] hidden sm:block"
           src={rightImg}
           alt="Background decoration"
         />
         <img src={logo} alt="Logo" className="mb-2 sm:hidden" />
-        <div className="w-full max-w-[300px]">
+        <div className="w-full max-w-[300px] z-10">
           <h1 className="sm:text-[36px] text-[30px] font-medium sm:pb-3 pb-7 text-center">
             Welcome back!
           </h1>

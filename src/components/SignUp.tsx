@@ -1,7 +1,12 @@
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import rightImg from "../assets/images/right-top-img.png";
 import logo from "../assets/images/logo.png";
-import { EyeIcon, EyeIconOpen, GoogleIcon } from "./common/Icons.jsx";
+import {
+  EyeIcon,
+  EyeIconOpen,
+  GoogleIcon,
+  WecomeLogo,
+} from "./common/Icons.jsx";
 import TextInput from "./common/TextInput.tsx";
 import PasswordInput from "./common/PasswordInput.tsx";
 import PrimaryBtn from "./common/PrimaryBtn.tsx";
@@ -54,8 +59,9 @@ const SignUp: React.FC = () => {
         />
         <img src={logo} alt="Logo" className="mb-2 sm:hidden" />
         <div className="w-full max-w-[300px]">
-          <h1 className="sm:text-[36px] text-[30px] font-medium sm:pb-3 pb-7 text-center">
-            Welcome back!
+          <WecomeLogo />
+          <h1 className="sm:text-[36px] text-[30px] font-medium sm:pb-3 pb-7 text-center pt-2">
+            Welcome!
           </h1>
           <button
             type="button"

@@ -45,7 +45,7 @@ const PasswordInput: React.FC<PasswordInputProps> = ({
         required
         onChange={(e) => onInputChange(e, formdata)}
         value={formdata}
-        className="bg-[#F4F4F6] block w-full py-2 mt-1 rounded-[10px] px-3 text-sm"
+        className="bg-[#F4F4F6] block w-full py-2 mt-1 rounded-[10px] px-3 text-sm dark:text-[#000000]"
         type={show ? "password" : "text"}
       />
       <span

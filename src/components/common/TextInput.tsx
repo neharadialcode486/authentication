@@ -18,7 +18,7 @@ const TextInput: React.FC<TextInputProps> = ({
     <>
       <div>
         <label
-          className="text-[#000000] opacity-45 text-base font-normal flex justify-center sm:justify-start"
+          className="text-blsck opacity-45 text-base font-normal flex justify-center sm:justify-start"
           htmlFor="email"
         >
           {label}
@@ -26,7 +26,7 @@ const TextInput: React.FC<TextInputProps> = ({
         <input
           id="email"
           onChange={(e) => onInputChange(e, formdata)}
-          className="bg-[#F4F4F6] block w-full py-2 mt-1 rounded-[10px] px-3 text-sm"
+          className="bg-[#F4F4F6] block w-full py-2 mt-1 rounded-[10px] px-3 text-sm text-black dark:text-[#000000]"
           type={formdata === "email" ? "email" : "text"}
           required
           value={formdata}

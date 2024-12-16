@@ -71,9 +71,9 @@ const SignUp: React.FC = () => {
             Sign in with Google
           </button>
           <div className="flex gap-4 items-center justify-between py-5">
-            <span className="inline-block w-[40%] h-[2px] bg-black bg-opacity-15"></span>
+            <span className="inline-block w-[40%] h-[2px] bg-black dark:bg-white opacity-15"></span>
             <span className="text-black opacity-35">OR</span>
-            <span className="inline-block w-[40%] h-[2px] bg-black bg-opacity-15"></span>
+            <span className="inline-block w-[40%] h-[2px] bg-black dark:bg-white opacity-15"></span>
           </div>
           <div className="flex flex-col sm:flex-row gap-5 mb-5">
             <TextInput

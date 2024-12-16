@@ -248,29 +248,16 @@ export const Icon2 = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      d="M9.19995 11.7H14.2"
-      stroke="#F1F1F1"
+      d="M8.16 6.65002H15.83C16.47 6.65002 16.99 7.17002 16.99 7.81002V9.09002C16.99 9.56002 16.7 10.14 16.41 10.43L13.91 12.64C13.56 12.93 13.33 13.51 13.33 13.98V16.48C13.33 16.83 13.1 17.29 12.81 17.47L12 17.98C11.24 18.45 10.2 17.92 10.2 16.99V13.91C10.2 13.5 9.97 12.98 9.73 12.69L7.52 10.36C7.23 10.08 7 9.55002 7 9.20002V7.87002C7 7.17002 7.52 6.65002 8.16 6.65002Z"
+      stroke="white"
       stroke-width="1.5"
+      stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
     />
     <path
-      d="M11.7 14.2V9.20001"
-      stroke="#F1F1F1"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
-      stroke="#F1F1F1"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M22 22L20 20"
-      stroke="#F1F1F1"
+      d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"
+      stroke="white"
       stroke-width="1.5"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -286,29 +273,15 @@ export const Icon3 = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      d="M9.19995 11.7H14.2"
-      stroke="#F1F1F1"
+      d="M2 8.34V15.66C2 17.16 3.62999 18.1 4.92999 17.35L8.10001 15.53L11.27 13.7C11.47 13.58 11.63 13.45 11.76 13.29V10.73C11.63 10.57 11.47 10.44 11.27 10.32L8.10001 8.48999L4.92999 6.67002C3.62999 5.90002 2 6.84 2 8.34Z"
+      stroke="white"
       stroke-width="1.5"
       stroke-linecap="round"
       stroke-linejoin="round"
     />
     <path
-      d="M11.7 14.2V9.20001"
-      stroke="#F1F1F1"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
-      stroke="#F1F1F1"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M22 22L20 20"
-      stroke="#F1F1F1"
+      d="M11.76 8.34V15.66C11.76 17.16 13.39 18.1 14.69 17.35L17.86 15.53L21.03 13.7C22.33 12.95 22.33 11.08 21.03 10.32L17.86 8.48999L14.69 6.67002C13.39 5.90002 11.76 6.84 11.76 8.34Z"
+      stroke="white"
       stroke-width="1.5"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -355,37 +328,41 @@ export const Icon4 = () => (
 );
 export const Icon5 = () => (
   <svg
-    width="23"
-    height="23"
-    viewBox="0 0 23 23"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      d="M8.58752 10.1906C8.49377 10.1813 8.38127 10.1813 8.27815 10.1906C6.0469 10.1156 4.27502 8.2875 4.27502 6.0375C4.27502 3.74063 6.13127 1.875 8.43752 1.875C10.7344 1.875 12.6 3.74063 12.6 6.0375C12.5906 8.2875 10.8188 10.1156 8.58752 10.1906Z"
+      d="M2 8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5H7"
       stroke="white"
       stroke-width="1.5"
+      stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
     />
     <path
-      d="M15.3844 3.75C17.2032 3.75 18.6657 5.22187 18.6657 7.03125C18.6657 8.80312 17.2594 10.2469 15.5063 10.3125C15.4313 10.3031 15.3469 10.3031 15.2626 10.3125"
+      d="M17 9L13.87 11.5C12.84 12.32 11.15 12.32 10.12 11.5L7 9"
       stroke="white"
       stroke-width="1.5"
+      stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
     />
     <path
-      d="M3.89993 13.65C1.63118 15.1688 1.63118 17.6438 3.89993 19.1531C6.47805 20.8781 10.7062 20.8781 13.2843 19.1531C15.5531 17.6344 15.5531 15.1594 13.2843 13.65C10.7156 11.9344 6.48743 11.9344 3.89993 13.65Z"
+      d="M2 16.5H8"
       stroke="white"
       stroke-width="1.5"
+      stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
     />
     <path
-      d="M17.1938 18.75C17.8688 18.6094 18.5063 18.3375 19.0313 17.9344C20.4938 16.8375 20.4938 15.0281 19.0313 13.9312C18.5157 13.5375 17.8876 13.275 17.222 13.125"
+      d="M2 12.5H5"
       stroke="white"
       stroke-width="1.5"
+      stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
     />

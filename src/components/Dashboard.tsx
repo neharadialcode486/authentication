@@ -7,7 +7,10 @@ const Dashboard = () => {
       <div className="flex bg-[#F4F2F3]">
         <Sidebar />
         <div className="w-full">
-          <div className="bg-white h-[100px]"></div>
+          <div className="bg-white sm:h-[100px] h-[70px] flex justify-between items-center px-8">
+            <p className="text-[24px] font-semibold">Dashboard</p>
+            <div></div>
+          </div>
           <div className="custom_height py-5 px-8">
             <p className="text-[100px]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit

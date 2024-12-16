@@ -11,6 +11,7 @@ import TextInput from "./common/TextInput.tsx";
 import PasswordInput from "./common/PasswordInput.tsx";
 import PrimaryBtn from "./common/PrimaryBtn.tsx";
 import { Link } from "react-router-dom";
+import Copyright from "./common/Copyright.tsx";
 
 interface FormData {
   email: string;
@@ -51,7 +52,7 @@ const SignUp: React.FC = () => {
 
   return (
     <form onSubmit={onSubmitHandler} className="relative">
-      <div className="md:h-screen flex flex-col justify-center items-center px-4 pb-10 pt-[15%] sm:pt-0  sm:pb-0 min-h-[600px] mt-4 sm:mt-0">
+      <div className="md:h-screen flex flex-col justify-center items-center px-4 pb-10 pt-[15%] sm:pt-0  sm:pb-0 min-h-[880px] mt-4 sm:mt-0">
         <img
           className="absolute bottom-0 right-0 rotate-[-270deg] 2xl:h-[20vw] 2xl:w-[20vw] md:w-[300px] lg:w-[400px] md:h-[300px]  lg:h-[400px] sm:w-[170px] w-[120px] sm:h-[170px] h-[120px] pointer-events-none z-[-1] hidden sm:block"
           src={rightImg}
@@ -120,14 +121,7 @@ const SignUp: React.FC = () => {
             <PrimaryBtn text="LOGIN" />
           </div>
         </div>
-        <div className="text-center absolute sm:bottom-[10px] bottom-[0px]">
-          <p className="text-black opacity-25 text-[12px] font-bold">
-            justgetleads Inc.
-          </p>
-          <p className="text-black opacity-25 text-[12px] font-normal">
-            all rights reserved
-          </p>
-        </div>
+        <Copyright />
       </div>
     </form>
   );

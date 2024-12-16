@@ -38,7 +38,7 @@ const SetPassword: React.FC = () => {
 
   return (
     <form onSubmit={onSubmitHandler} className="relative">
-      <div className="h-screen flex flex-col justify-center items-center px-4 mb-10 sm:mb-0 min-h-[600px]">
+      <div className="h-screen flex flex-col justify-center items-center px-4 pb-10 sm:pb-0 min-h-[600px]">
         <img
           className="absolute top-0 right-0  2xl:h-[20vw] 2xl:w-[20vw] md:w-[300px] lg:w-[400px] md:h-[300px] lg:h-[400px] sm:w-[170px] w-[120px] sm:h-[170px] h-[120px] pointer-events-none z-[-1] hidden sm:block"
           src={rightImg}

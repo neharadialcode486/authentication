@@ -9,7 +9,7 @@ interface PasswordInputProps {
   setShow: (show: boolean) => void;
   onInputChange: (
     e: React.ChangeEvent<HTMLInputElement>,
-    field: "password"
+    field: string
   ) => void;
   formdata: string;
 }
@@ -43,7 +43,7 @@ const PasswordInput: React.FC<PasswordInputProps> = ({
       <input
         id="password"
         required
-        onChange={(e) => onInputChange(e, "password")}
+        onChange={(e) => onInputChange(e, formdata)}
         value={formdata}
         className="bg-[#F4F4F6] block w-full py-2 mt-1 rounded-[10px] px-3 text-sm"
         type={show ? "password" : "text"}

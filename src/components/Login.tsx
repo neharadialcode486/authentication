@@ -62,10 +62,14 @@ const Login: React.FC = () => {
             <span className="text-black opacity-35">OR</span>
             <span className="inline-block w-[40%] h-[2px] bg-black bg-opacity-15"></span>
           </div>
-          <TextInput onInputChange={onInputChange} formdata={formdata} />
+          <TextInput
+            onInputChange={(e) => onInputChange(e, "email")}
+            formdata={formdata.email}
+            label="Email address*"
+          />
 
           <PasswordInput
-            onInputChange={onInputChange}
+            onInputChange={(e) => onInputChange(e, "password")}
             formdata={formdata.password}
             show={show}
             setShow={setShow}

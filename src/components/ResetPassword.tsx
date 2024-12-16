@@ -48,7 +48,11 @@ const ResetPassword: React.FC = () => {
             Enter your email address and we will send you an email with
             instructions on how to reset your password.
           </p>
-          <TextInput onInputChange={onInputChange} formdata={formdata} />
+          <TextInput
+            onInputChange={(e) => onInputChange(e, "email")}
+            formdata={formdata.email}
+            label="Email address*"
+          />
 
           <div className="sm:mt-7 mt-5">
             <PrimaryBtn text="RESET PASSWORD" />

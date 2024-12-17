@@ -47,9 +47,13 @@ const Sidebar = () => {
       </div>
       <div className="z-10 pe-10 flex flex-col gap-2">
         {icons.map((obj, i) => (
-          <a className="cursor-pointer inline-block w-[24px] smoothness hover:scale-[1.2]">
+          <Link
+            to={obj.url}
+            className="cursor-pointer inline-block w-[24px] smoothness hover:scale-[1.2]"
+            key={i}
+          >
             {obj.icon}
-          </a>
+          </Link>
         ))}
       </div>
       <div className="text-center">

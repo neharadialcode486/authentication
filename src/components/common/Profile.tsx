@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import avatar from "../../assets/images/avatar.png";
-import { BottomArrow } from "./Icons";
+import {
+  BottomArrow,
+  DropdownContactIcon,
+  DropdownDashboardIcon,
+  DropdownLogoutIcon,
+  DropdownSubscriptionIcon,
+  DropdownSunIcon,
+} from "./Icons";
 
 const Profile = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,9 +17,31 @@ const Profile = () => {
   };
 
   const notifications = [
-    { id: 1, message: "You have a new message!" },
-    { id: 2, message: "Your password was updated successfully." },
-    { id: 3, message: "New login from another device." },
+    {
+      id: 1,
+      message: "Profile",
+      icon: <DropdownContactIcon />,
+    },
+    {
+      id: 2,
+      message: "Dashboard",
+      icon: <DropdownDashboardIcon />,
+    },
+    {
+      id: 3,
+      message: "Subscription",
+      icon: <DropdownSubscriptionIcon />,
+    },
+    {
+      id: 4,
+      message: "Settings",
+      icon: <DropdownSunIcon />,
+    },
+    {
+      id: 5,
+      message: "Log out",
+      icon: <DropdownLogoutIcon />,
+    },
   ];
 
   return (
@@ -26,25 +55,22 @@ const Profile = () => {
           className="w-[44px] h-[44px] rounded-[8px]"
           src={avatar}
           alt="avatar"
-        />{" "}
+        />
         <BottomArrow />
       </button>
 
       {/* Dropdown Menu */}
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-64 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-lg z-10">
-          <div className="py-2">
-            <h3 className="text-sm font-bold text-gray-800 dark:text-white px-4">
-              Notifications
-            </h3>
-          </div>
-          <ul className="max-h-60 overflow-auto">
+        <div className="absolute right-0 mt-2 w-50 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-lg z-10">
+          <ul className="max-h-60 overflow-auto px-2 py-2">
             {notifications.length > 0 ? (
               notifications.map((notification) => (
                 <li
+                  onClick={() => setIsOpen(false)}
                   key={notification.id}
-                  className="px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer"
+                  className="px-2 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer rounded-[8px] flex items-center gap-2"
                 >
+                  <span>{notification.icon}</span>
                   {notification.message}
                 </li>
               ))
@@ -54,14 +80,6 @@ const Profile = () => {
               </li>
             )}
           </ul>
-          <div className="border-t dark:border-gray-700">
-            <button
-              className="w-full text-center py-2 text-blue-500 hover:bg-gray-100 dark:hover:bg-gray-700"
-              onClick={() => alert("View all notifications")}
-            >
-              View All
-            </button>
-          </div>
         </div>
       )}
     </div>

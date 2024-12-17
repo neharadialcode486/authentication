@@ -25,6 +25,8 @@ const NotificationDropdown = () => {
         <span className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white dropdown_shadow">
           <NotificationIcon />
         </span>
+        <span className="top-[15px] right-[15px] absolute w-[10px] h-[10px] bg-primary rounded-full"></span>
+
         {/* Notification Count */}
       </button>
 
@@ -35,6 +37,7 @@ const NotificationDropdown = () => {
             {notifications.length > 0 ? (
               notifications.map((notification) => (
                 <li
+                  onClick={() => setIsOpen(false)}
                   key={notification.id}
                   className="px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer"
                 >

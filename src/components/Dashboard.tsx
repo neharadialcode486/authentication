@@ -62,7 +62,7 @@ const Dashboard = () => {
             <img src={logo} alt="logo" />
           </div>
           <div className="custom_height py-5 px-8 mb-12 sm:mb-0">
-            <p className="md:text-[90px] sm:text-[50px] text-[20px]">
+            <p className="md:text-[90px] sm:text-[50px] text-[20px] text-center sm:text-start">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
               hic, amet quae soluta rem iure incidunt aspernatur eaque dicta
               perspiciatis, eius ratione vitae libero quis officia odio

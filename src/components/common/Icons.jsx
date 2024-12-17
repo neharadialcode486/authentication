@@ -212,28 +212,28 @@ export const Icon1 = () => (
     <path
       d="M9.19995 11.7H14.2"
       stroke="#F1F1F1"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M11.7 14.2V9.20001"
       stroke="#F1F1F1"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
       stroke="#F1F1F1"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M22 22L20 20"
       stroke="#F1F1F1"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -250,7 +250,7 @@ export const Icon2 = () => (
     <path
       d="M8.16 6.65002H15.83C16.47 6.65002 16.99 7.17002 16.99 7.81002V9.09002C16.99 9.56002 16.7 10.14 16.41 10.43L13.91 12.64C13.56 12.93 13.33 13.51 13.33 13.98V16.48C13.33 16.83 13.1 17.29 12.81 17.47L12 17.98C11.24 18.45 10.2 17.92 10.2 16.99V13.91C10.2 13.5 9.97 12.98 9.73 12.69L7.52 10.36C7.23 10.08 7 9.55002 7 9.20002V7.87002C7 7.17002 7.52 6.65002 8.16 6.65002Z"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -258,7 +258,7 @@ export const Icon2 = () => (
     <path
       d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -275,14 +275,14 @@ export const Icon3 = () => (
     <path
       d="M2 8.34V15.66C2 17.16 3.62999 18.1 4.92999 17.35L8.10001 15.53L11.27 13.7C11.47 13.58 11.63 13.45 11.76 13.29V10.73C11.63 10.57 11.47 10.44 11.27 10.32L8.10001 8.48999L4.92999 6.67002C3.62999 5.90002 2 6.84 2 8.34Z"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M11.76 8.34V15.66C11.76 17.16 13.39 18.1 14.69 17.35L17.86 15.53L21.03 13.7C22.33 12.95 22.33 11.08 21.03 10.32L17.86 8.48999L14.69 6.67002C13.39 5.90002 11.76 6.84 11.76 8.34Z"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -299,28 +299,28 @@ export const Icon4 = () => (
     <path
       d="M8.58752 10.1906C8.49377 10.1813 8.38127 10.1813 8.27815 10.1906C6.0469 10.1156 4.27502 8.2875 4.27502 6.0375C4.27502 3.74063 6.13127 1.875 8.43752 1.875C10.7344 1.875 12.6 3.74063 12.6 6.0375C12.5906 8.2875 10.8188 10.1156 8.58752 10.1906Z"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M15.3844 3.75C17.2032 3.75 18.6657 5.22187 18.6657 7.03125C18.6657 8.80312 17.2594 10.2469 15.5063 10.3125C15.4313 10.3031 15.3469 10.3031 15.2626 10.3125"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M3.89993 13.65C1.63118 15.1688 1.63118 17.6438 3.89993 19.1531C6.47805 20.8781 10.7062 20.8781 13.2843 19.1531C15.5531 17.6344 15.5531 15.1594 13.2843 13.65C10.7156 11.9344 6.48743 11.9344 3.89993 13.65Z"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M17.1938 18.75C17.8688 18.6094 18.5063 18.3375 19.0313 17.9344C20.4938 16.8375 20.4938 15.0281 19.0313 13.9312C18.5157 13.5375 17.8876 13.275 17.222 13.125"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -337,7 +337,7 @@ export const Icon5 = () => (
     <path
       d="M2 8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5H7"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -345,7 +345,7 @@ export const Icon5 = () => (
     <path
       d="M17 9L13.87 11.5C12.84 12.32 11.15 12.32 10.12 11.5L7 9"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -353,7 +353,7 @@ export const Icon5 = () => (
     <path
       d="M2 16.5H8"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -361,7 +361,7 @@ export const Icon5 = () => (
     <path
       d="M2 12.5H5"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -379,42 +379,42 @@ export const Icon6 = () => (
     <path
       d="M17 21H7C3 21 2 20 2 16V8C2 4 3 3 7 3H17C21 3 22 4 22 8V16C22 20 21 21 17 21Z"
       stroke="#F1F1F1"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M14 8H19"
       stroke="#F1F1F1"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M15 12H19"
       stroke="#F1F1F1"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M17 16H19"
       stroke="#F1F1F1"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M8.49994 11.29C9.49958 11.29 10.3099 10.4797 10.3099 9.48004C10.3099 8.48041 9.49958 7.67004 8.49994 7.67004C7.50031 7.67004 6.68994 8.48041 6.68994 9.48004C6.68994 10.4797 7.50031 11.29 8.49994 11.29Z"
       stroke="#F1F1F1"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M12 16.33C11.86 14.88 10.71 13.74 9.26 13.61C8.76 13.56 8.25 13.56 7.74 13.61C6.29 13.75 5.14 14.88 5 16.33"
       stroke="#F1F1F1"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -431,14 +431,14 @@ export const Icon7 = () => (
     <path
       d="M7.16004 22C2.98004 22 2.14004 19.47 3.50004 16.39L7.75004 6.74H7.45004C6.80004 6.74 6.20004 6.48 5.77004 6.05C5.33004 5.62 5.07004 5.02 5.07004 4.37C5.07004 3.07 6.13004 2 7.44004 2H14.55C15.21 2 15.8 2.27 16.23 2.7C16.79 3.26 17.07 4.08 16.86 4.95C16.59 6.03 15.55 6.74 14.44 6.74H14.28L18.5 16.4C19.85 19.48 18.97 22 14.83 22H7.16004Z"
       stroke="#F1F1F1"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M4.93994 13.12C4.93994 13.12 7.99994 13 10.9999 14C13.9999 15 16.8299 13.11 16.8299 13.11"
       stroke="#F1F1F1"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -538,14 +538,14 @@ export const SunIcon = () => (
     <path
       d="M13.2 20.85C17.1488 20.85 20.35 17.6488 20.35 13.7C20.35 9.75115 17.1488 6.54999 13.2 6.54999C9.25117 6.54999 6.05 9.75115 6.05 13.7C6.05 17.6488 9.25117 20.85 13.2 20.85Z"
       stroke="black"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M21.054 21.554L20.911 21.411M20.911 5.98901L21.054 5.84601L20.911 5.98901ZM5.346 21.554L5.489 21.411L5.346 21.554ZM13.2 2.78801V2.70001V2.78801ZM13.2 24.7V24.612V24.7ZM2.288 13.7H2.2H2.288ZM24.2 13.7H24.112H24.2ZM5.489 5.98901L5.346 5.84601L5.489 5.98901Z"
       stroke="black"
-      stroke-width="2"
+      strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -705,21 +705,21 @@ export const TriangleIcon = () => (
     <path
       d="M16 28.5467H7.92001C3.29335 28.5467 1.36001 25.24 3.60001 21.2L7.76001 13.7067L11.68 6.66667C14.0533 2.38666 17.9467 2.38666 20.32 6.66667L24.24 13.72L28.4 21.2133C30.64 25.2533 28.6933 28.56 24.08 28.56H16V28.5467Z"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M28.5867 26.6667L16 17.8534L3.41333 26.6667"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M16 4V17.8533"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -736,7 +736,7 @@ export const FilterIcon = () => (
     <path
       d="M10.88 8.8667H21.1067C21.96 8.8667 22.6534 9.56003 22.6534 10.4134V12.12C22.6534 12.7467 22.2667 13.52 21.88 13.9067L18.5467 16.8534C18.08 17.24 17.7734 18.0134 17.7734 18.64V21.9734C17.7734 22.44 17.4667 23.0534 17.08 23.2934L16 23.9734C14.9867 24.6 13.6 23.8934 13.6 22.6534V18.5467C13.6 18 13.2934 17.3067 12.9734 16.92L10.0267 13.8134C9.64004 13.44 9.33337 12.7334 9.33337 12.2667V10.4934C9.33337 9.56003 10.0267 8.8667 10.88 8.8667Z"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -744,7 +744,7 @@ export const FilterIcon = () => (
     <path
       d="M12 29.3333H20C26.6666 29.3333 29.3333 26.6666 29.3333 20V12C29.3333 5.33329 26.6666 2.66663 20 2.66663H12C5.33329 2.66663 2.66663 5.33329 2.66663 12V20C2.66663 26.6666 5.33329 29.3333 12 29.3333Z"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -761,28 +761,28 @@ export const ContactIcon = () => (
     <path
       d="M12.2133 14.4933C12.08 14.48 11.92 14.48 11.7733 14.4933C8.59996 14.3866 6.07996 11.7866 6.07996 8.58663C6.07996 5.31996 8.71996 2.66663 12 2.66663C15.2666 2.66663 17.92 5.31996 17.92 8.58663C17.9066 11.7866 15.3866 14.3866 12.2133 14.4933Z"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M21.88 5.33337C24.4667 5.33337 26.5467 7.42671 26.5467 10C26.5467 12.52 24.5467 14.5734 22.0533 14.6667C21.9467 14.6534 21.8267 14.6534 21.7067 14.6667"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M5.54671 19.4134C2.32004 21.5734 2.32004 25.0934 5.54671 27.24C9.21338 29.6934 15.2267 29.6934 18.8934 27.24C22.12 25.08 22.12 21.56 18.8934 19.4134C15.24 16.9734 9.22671 16.9734 5.54671 19.4134Z"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M24.4534 26.6666C25.4134 26.4666 26.32 26.08 27.0667 25.5066C29.1467 23.9466 29.1467 21.3733 27.0667 19.8133C26.3334 19.2533 25.44 18.88 24.4934 18.6666"
       stroke="white"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -813,14 +813,14 @@ export const DropdownContactIcon = () => (
     <path
       d="M8 8.00004C9.84095 8.00004 11.3333 6.50766 11.3333 4.66671C11.3333 2.82576 9.84095 1.33337 8 1.33337C6.15905 1.33337 4.66667 2.82576 4.66667 4.66671C4.66667 6.50766 6.15905 8.00004 8 8.00004Z"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M13.7267 14.6667C13.7267 12.0867 11.16 10 8 10C4.84 10 2.27333 12.0867 2.27333 14.6667"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -837,21 +837,21 @@ export const DropdownDashboardIcon = () => (
     <path
       d="M14.6667 8.66671V6.00004C14.6667 2.66671 13.3333 1.33337 10 1.33337H6C2.66667 1.33337 1.33333 2.66671 1.33333 6.00004V10C1.33333 13.3334 2.66667 14.6667 6 14.6667H8.66667"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M4.88666 9.65997L6.47333 7.59997C6.69999 7.30663 7.12 7.2533 7.41333 7.47997L8.63334 8.43997C8.92667 8.66664 9.34666 8.61331 9.57332 8.32664L11.1133 6.33997"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M12.9867 10.5467L13.1733 10.9267C13.2667 11.1134 13.5 11.2867 13.7067 11.3267L13.96 11.3667C14.72 11.4934 14.9 12.0534 14.3533 12.6067L14.12 12.84C13.9667 13 13.88 13.3067 13.9267 13.52L13.96 13.66C14.1667 14.58 13.68 14.9334 12.88 14.4534L12.7067 14.3534C12.5 14.2334 12.1667 14.2334 11.96 14.3534L11.7867 14.4534C10.98 14.94 10.4933 14.58 10.7067 13.66L10.74 13.52C10.7867 13.3067 10.7 13 10.5467 12.84L10.3133 12.6067C9.76666 12.0534 9.94666 11.4934 10.7067 11.3667L10.96 11.3267C11.16 11.2934 11.4 11.1134 11.4933 10.9267L11.68 10.5467C12.04 9.82004 12.6267 9.82004 12.9867 10.5467Z"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -868,7 +868,7 @@ export const DropdownSubscriptionIcon = () => (
     <path
       d="M1.33333 5.66663H8.66667"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -876,7 +876,7 @@ export const DropdownSubscriptionIcon = () => (
     <path
       d="M4 11H5.33333"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -884,7 +884,7 @@ export const DropdownSubscriptionIcon = () => (
     <path
       d="M7 11H9.66667"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -892,14 +892,14 @@ export const DropdownSubscriptionIcon = () => (
     <path
       d="M14.6667 7.55339V10.74C14.6667 13.08 14.0733 13.6667 11.7067 13.6667H4.29333C1.92667 13.6667 1.33333 13.08 1.33333 10.74V5.26005C1.33333 2.92005 1.92667 2.33337 4.29333 2.33337H8.85333"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M11.3333 2.16675H13.42C13.88 2.16675 14.2533 2.58675 14.2533 3.00008C14.2533 3.46008 13.88 3.83341 13.42 3.83341H11.3333V2.16675Z"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -907,7 +907,7 @@ export const DropdownSubscriptionIcon = () => (
     <path
       d="M11.3333 3.83337H13.7133C14.24 3.83337 14.6667 4.20671 14.6667 4.66671C14.6667 5.12671 14.24 5.50004 13.7133 5.50004H11.3333V3.83337Z"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -915,7 +915,7 @@ export const DropdownSubscriptionIcon = () => (
     <path
       d="M12.5067 5.5V6.33333"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -923,7 +923,7 @@ export const DropdownSubscriptionIcon = () => (
     <path
       d="M12.5067 1.33337V2.16671"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -931,7 +931,7 @@ export const DropdownSubscriptionIcon = () => (
     <path
       d="M12.1267 2.16675H10.6667"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -939,7 +939,7 @@ export const DropdownSubscriptionIcon = () => (
     <path
       d="M12.1267 5.5H10.6667"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -957,14 +957,14 @@ export const DropdownSunIcon = () => (
     <path
       d="M8 12.3333C10.3932 12.3333 12.3333 10.3932 12.3333 7.99996C12.3333 5.60673 10.3932 3.66663 8 3.66663C5.60677 3.66663 3.66667 5.60673 3.66667 7.99996C3.66667 10.3932 5.60677 12.3333 8 12.3333Z"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M12.76 12.76L12.6733 12.6734M12.6733 3.32671L12.76 3.24004L12.6733 3.32671ZM3.24 12.76L3.32667 12.6734L3.24 12.76ZM8 1.38671V1.33337V1.38671ZM8 14.6667V14.6134V14.6667ZM1.38667 8.00004H1.33333H1.38667ZM14.6667 8.00004H14.6133H14.6667ZM3.32667 3.32671L3.24 3.24004L3.32667 3.32671Z"
       stroke="#7E7E8F"
-      stroke-width="2"
+      strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -981,21 +981,21 @@ export const DropdownLogoutIcon = () => (
     <path
       d="M5.93333 5.04003C6.14 2.64003 7.37333 1.66003 10.0733 1.66003H10.16C13.14 1.66003 14.3333 2.85337 14.3333 5.83337V10.18C14.3333 13.16 13.14 14.3534 10.16 14.3534H10.0733C7.39333 14.3534 6.16 13.3867 5.94 11.0267"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M10 8H2.41333"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M3.9 5.76672L1.66667 8.00006L3.9 10.2334"
       stroke="#7E7E8F"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
     />

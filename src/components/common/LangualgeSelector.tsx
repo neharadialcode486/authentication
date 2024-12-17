@@ -22,8 +22,15 @@ const LanguageSelector = () => {
 
   return (
     <div className="relative inline-block">
+      {isOpen && (
+        <div
+          className="fixed left-0 top-0 w-full h-full "
+          onClick={() => setIsOpen(false)}
+        ></div>
+      )}
       {/* Language Selector Button */}
       <button
+        title="Language selector"
         onClick={toggleDropdown}
         className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none"
       >

@@ -23,6 +23,7 @@ const Message = () => {
       )}
       {/* Bell Icon */}
       <button
+        title="Message"
         onClick={toggleDropdown}
         className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none"
       >

@@ -1,38 +1,53 @@
 import React from "react";
-import curve from "../../assets/images/side-curve.png";
-import logo from "../../assets/images/logo.png";
-import { Icon1, Icon2, Icon3, Icon4, Icon5, Icon6, Icon7 } from "./Icons";
 import { Link } from "react-router-dom";
+import curve from "../../assets/images/side-curve.jpeg";
+import {
+  Icon1,
+  Icon2,
+  Icon3,
+  Icon4,
+  Icon5,
+  Icon6,
+  Icon7,
+  LogoIcon,
+} from "./Icons";
 
 const Sidebar = () => {
   const icons = [
     {
       icon: <Icon1 />,
       url: "",
+      title: "Search",
     },
     {
       icon: <Icon2 />,
       url: "",
+      title: "Filter",
     },
     {
       icon: <Icon3 />,
       url: "",
+      title: "Play",
     },
     {
       icon: <Icon4 />,
       url: "",
+      title: "Contact",
     },
     {
       icon: <Icon5 />,
       url: "",
+      title: "Mailbox",
     },
     {
       icon: <Icon6 />,
       url: "",
+      title: "Person List",
     },
     {
       icon: <Icon7 />,
       url: "",
+      title: "Solution",
     },
   ];
   return (
@@ -43,11 +58,14 @@ const Sidebar = () => {
         alt="curve"
       />
       <div className="pt-4">
-        <img className=" cursor-pointer" src={logo} alt="curve" />
+        <Link to="/">
+          <LogoIcon />
+        </Link>
       </div>
       <div className="z-10 pe-10 flex flex-col gap-2">
         {icons.map((obj, i) => (
           <Link
+            title={obj.title}
             to={obj.url}
             className="cursor-pointer inline-block w-[24px] smoothness hover:scale-[1.2]"
             key={i}

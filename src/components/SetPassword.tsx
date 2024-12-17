@@ -1,7 +1,8 @@
 import React, { ChangeEvent, FormEvent, useState } from "react";
-import logo from "../assets/images/logo.png";
+import { Link } from "react-router-dom";
 import rightImg from "../assets/images/right-top-img.png";
 import Copyright from "./common/Copyright.tsx";
+import { LogoIcon } from "./common/Icons.jsx";
 import PasswordInput from "./common/PasswordInput.tsx";
 import PrimaryBtn from "./common/PrimaryBtn.tsx";
 
@@ -44,7 +45,9 @@ const SetPassword: React.FC = () => {
           src={rightImg}
           alt="Background decoration"
         />
-        <img src={logo} alt="Logo" className="mb-2 sm:hidden" />
+        <Link className="mb-2 sm:hidden" to="/">
+          <LogoIcon />
+        </Link>{" "}
         <div className="w-full max-w-[320px] z-10">
           <h1 className="text-lg font-medium sm:font-bold sm:pb-1 pb-2 text-center sm:uppercase">
             Set Password

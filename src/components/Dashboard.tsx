@@ -1,19 +1,19 @@
 import React, { useState } from "react";
-import Message from "./common/Message.tsx";
-import Sidebar from "./common/Sidebar.tsx";
-import NotificationDropdown from "./common/Notification.tsx";
-import Theme from "./common/Theme.tsx";
-import LanguageSelector from "./common/LangualgeSelector.tsx";
-import Profile from "./common/Profile.tsx";
-import logo from "../assets/images/logo.png";
+import { Link } from "react-router-dom";
 import {
   ContactIcon,
   FilterIcon,
   HomeIcon,
+  LogoIcon,
   ToggleIcon,
   TriangleIcon,
 } from "./common/Icons.jsx";
-import { Link } from "react-router-dom";
+import LanguageSelector from "./common/LangualgeSelector.tsx";
+import Message from "./common/Message.tsx";
+import NotificationDropdown from "./common/Notification.tsx";
+import Profile from "./common/Profile.tsx";
+import Sidebar from "./common/Sidebar.tsx";
+import Theme from "./common/Theme.tsx";
 
 const Dashboard = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -39,27 +39,42 @@ const Dashboard = () => {
                 : " bg-white w-[70px] overflow-hidden"
             }`}
           >
-            <Link className="hover:scale-[1.2] smoothness" to="#">
+            <Link className="hover:scale-[1.2] smoothness" to="#" title="Home">
               <HomeIcon />
             </Link>
-            <Link className="hover:scale-[1.2] smoothness" to="#">
+            <Link
+              className="hover:scale-[1.2] smoothness"
+              to="#"
+              title="Trianlge"
+            >
               <TriangleIcon />
             </Link>
             <span
+              title="Toggle Icon"
               className="cursor-pointer"
               onClick={() => setNavOpen(!navOpen)}
             >
               <ToggleIcon navOpen={navOpen} />
             </span>
-            <Link className="hover:scale-[1.2] smoothness" to="#">
+            <Link
+              className="hover:scale-[1.2] smoothness"
+              to="#"
+              title="Filter"
+            >
               <FilterIcon />
             </Link>
-            <Link className="hover:scale-[1.2] smoothness" to="#">
+            <Link
+              className="hover:scale-[1.2] smoothness"
+              to="#"
+              title="Contact"
+            >
               <ContactIcon />
             </Link>
           </div>
           <div className="sm:hidden flex justify-center py-5 mt-3">
-            <img src={logo} alt="logo" />
+            <Link to="/">
+              <LogoIcon />
+            </Link>
           </div>
           <div className="custom_height py-5 px-8 mb-12 sm:mb-0">
             <p className="md:text-[90px] sm:text-[50px] text-[20px] text-center sm:text-start">

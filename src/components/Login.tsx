@@ -1,12 +1,11 @@
-import React, { useState, ChangeEvent, FormEvent } from "react";
+import React, { ChangeEvent, FormEvent, useState } from "react";
+import { Link } from "react-router-dom";
 import rightImg from "../assets/images/right-top-img.png";
-import logo from "../assets/images/logo.png";
-import { EyeIcon, EyeIconOpen, GoogleIcon } from "./common/Icons.jsx";
-import TextInput from "./common/TextInput.tsx";
+import Copyright from "./common/Copyright.tsx";
+import { GoogleIcon, LogoIcon } from "./common/Icons.jsx";
 import PasswordInput from "./common/PasswordInput.tsx";
 import PrimaryBtn from "./common/PrimaryBtn.tsx";
-import { Link } from "react-router-dom";
-import Copyright from "./common/Copyright.tsx";
+import TextInput from "./common/TextInput.tsx";
 
 interface FormData {
   email: string;
@@ -46,7 +45,9 @@ const Login: React.FC = () => {
           src={rightImg}
           alt="Background decoration"
         />
-        <img src={logo} alt="Logo" className="mb-2 sm:hidden" />
+        <Link className="mb-2 sm:hidden" to="/">
+          <LogoIcon />
+        </Link>
         <div className="w-full max-w-[300px] z-10">
           <h1 className="sm:text-[36px] text-[30px] font-medium sm:pb-3 pb-7 text-center">
             Welcome back!

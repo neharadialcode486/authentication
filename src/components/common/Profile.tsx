@@ -54,6 +54,7 @@ const Profile = () => {
       )}
       {/* Bell Icon */}
       <button
+        title="Profile"
         onClick={toggleDropdown}
         className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none flex items-center gap-3"
       >

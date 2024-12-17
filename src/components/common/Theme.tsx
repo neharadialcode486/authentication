@@ -13,7 +13,10 @@ const Theme = () => {
   }, [darkMode]);
   return (
     <div className="relative inline-block">
-      <button className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none">
+      <button
+        className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none"
+        title="Theme selector"
+      >
         <span
           className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white dropdown_shadow"
           onClick={() => setDarkMode(!darkMode)}

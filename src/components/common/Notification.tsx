@@ -17,6 +17,12 @@ const NotificationDropdown = () => {
 
   return (
     <div className="relative inline-block">
+      {isOpen && (
+        <div
+          className="fixed left-0 top-0 w-full h-full "
+          onClick={() => setIsOpen(false)}
+        ></div>
+      )}
       {/* Bell Icon */}
       <button
         onClick={toggleDropdown}

@@ -19,7 +19,7 @@ const NotificationDropdown = () => {
       {/* Bell Icon */}
       <button
         onClick={toggleDropdown}
-        className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none"
+        className="relative p-2 rounded-full text-gray-600 dark:text-gray-300  focus:outline-none"
       >
         <span className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white dropdown_shadow">
           <NotificationIcon />

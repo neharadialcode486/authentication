@@ -12,7 +12,7 @@ const Dashboard = () => {
       <div className="flex bg-[#F4F2F3] dark:bg-[#2C2646] dark:bg-opacity-50">
         <Sidebar />
         <div className="w-full">
-          <div className="bg-white dark:bg-[#2C2646]  sm:h-[100px] h-[70px] flex justify-between items-center px-8">
+          <div className="bg-white dark:bg-[#2C2646]  sm:h-[100px] h-[70px] md:flex justify-between items-center px-8 hidden ">
             <p className="text-[24px] font-semibold">Dashboard</p>
             <div className="flex items-center gap-2">
               <Message />

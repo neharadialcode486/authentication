@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import avatar from "../../assets/images/avatar.png";
+import { BottomArrow } from "./Icons";
 
 const Profile = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,9 +20,14 @@ const Profile = () => {
       {/* Bell Icon */}
       <button
         onClick={toggleDropdown}
-        className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none"
+        className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none flex items-center gap-3"
       >
-        <img src={avatar} alt="avatar" />
+        <img
+          className="w-[44px] h-[44px] rounded-[8px]"
+          src={avatar}
+          alt="avatar"
+        />{" "}
+        <BottomArrow />
       </button>
 
       {/* Dropdown Menu */}

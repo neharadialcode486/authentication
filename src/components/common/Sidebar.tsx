@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import curve from "../../assets/images/side-curve.jpeg";
+import curve from "../../assets/images/side-curve.png";
 import {
   Icon1,
   Icon2,

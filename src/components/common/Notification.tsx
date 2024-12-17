@@ -9,9 +9,10 @@ const NotificationDropdown = () => {
   };
 
   const notifications = [
-    { id: 1, message: "You have a new message!" },
-    { id: 2, message: "Your password was updated successfully." },
-    { id: 3, message: "New login from another device." },
+    { id: 1, message: "Your last request is completed!" },
+    { id: 2, message: "Your request is planned successfully!" },
+    { id: 3, message: "Your request is planned successfully!" },
+    { id: 4, message: "Your last request is completed!" },
   ];
 
   return (
@@ -29,13 +30,8 @@ const NotificationDropdown = () => {
 
       {/* Dropdown Menu */}
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-64 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-lg z-10">
-          <div className="py-2">
-            <h3 className="text-sm font-bold text-gray-800 dark:text-white px-4">
-              Notifications
-            </h3>
-          </div>
-          <ul className="max-h-60 overflow-auto">
+        <div className="absolute right-0 mt-2 w-[320px] bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-lg z-10">
+          <ul className="max-h-60 overflow-auto py-2">
             {notifications.length > 0 ? (
               notifications.map((notification) => (
                 <li
@@ -51,14 +47,6 @@ const NotificationDropdown = () => {
               </li>
             )}
           </ul>
-          <div className="border-t dark:border-gray-700">
-            <button
-              className="w-full text-center py-2 text-blue-500 hover:bg-gray-100 dark:hover:bg-gray-700"
-              onClick={() => alert("View all notifications")}
-            >
-              View All
-            </button>
-          </div>
         </div>
       )}
     </div>

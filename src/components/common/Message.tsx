@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MailIcon } from "./Icons";
+import { MailIcon, TopTriangleIcon } from "./Icons";
 
 const Message = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,8 +10,7 @@ const Message = () => {
 
   const notifications = [
     { id: 1, message: "You have a new message!" },
-    { id: 2, message: "Your password was updated successfully." },
-    { id: 3, message: "New login from another device." },
+    { id: 2, message: "You have a new message!" },
   ];
 
   return (
@@ -28,13 +27,11 @@ const Message = () => {
 
       {/* Dropdown Menu */}
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-64 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-lg z-10">
-          <div className="py-2">
-            <h3 className="text-sm font-bold text-gray-800 dark:text-white px-4">
-              Notifications
-            </h3>
-          </div>
-          <ul className="max-h-60 overflow-auto">
+        <div className="absolute right-0 mt-2 w-60 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-lg z-10">
+          {/* <span className="top-[-10px] inline-block  right-[22px] absolute">
+            <TopTriangleIcon />
+          </span> */}
+          <ul className="max-h-60 overflow-auto py-2">
             {notifications.length > 0 ? (
               notifications.map((notification) => (
                 <li
@@ -50,14 +47,6 @@ const Message = () => {
               </li>
             )}
           </ul>
-          <div className="border-t dark:border-gray-700">
-            <button
-              className="w-full text-center py-2 text-blue-500 hover:bg-gray-100 dark:hover:bg-gray-700"
-              onClick={() => alert("View all notifications")}
-            >
-              View All
-            </button>
-          </div>
         </div>
       )}
     </div>

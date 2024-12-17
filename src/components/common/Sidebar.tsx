@@ -2,6 +2,7 @@ import React from "react";
 import curve from "../../assets/images/side-curve.png";
 import logo from "../../assets/images/logo.png";
 import { Icon1, Icon2, Icon3, Icon4, Icon5, Icon6, Icon7 } from "./Icons";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const icons = [
@@ -35,23 +36,39 @@ const Sidebar = () => {
     },
   ];
   return (
-    <div className="h-screen w-[120px] sm:flex flex-col justify-center bg-white relative hidden">
+    <div className="h-screen w-[120px] sm:flex flex-col justify-between items-center bg-white dark:bg-[#2C2646] relative hidden py-3 px-5">
       <img
         className="absolute top-[50%] translate-y-[-50%] left-0"
         src={curve}
         alt="curve"
       />
-      <img
-        className="absolute left-[50%] translate-x-[-50%] top-[25px] cursor-pointer"
-        src={logo}
-        alt="curve"
-      />
-      <div className="z-10 ps-6 flex flex-col gap-2">
+      <div className="pt-4">
+        <img className=" cursor-pointer" src={logo} alt="curve" />
+      </div>
+      <div className="z-10 pe-10 flex flex-col gap-2">
         {icons.map((obj, i) => (
           <a className="cursor-pointer inline-block w-[24px] smoothness hover:scale-[1.2]">
             {obj.icon}
           </a>
         ))}
+      </div>
+      <div className="text-center">
+        <p className="text-xs font-bold ff_rubik text-center">v1.19</p>
+        <p className="text-xxs font-bold ff_rubik text-center pb-2">
+          justgetleads Inc.
+        </p>
+        <Link
+          className="text-xxs font-normal ff_rubik text-center text-nowrap block h-[6px] hover:text-primary smoothness"
+          to="#"
+        >
+          Terms & Condition
+        </Link>
+        <Link
+          className="text-xxs font-normal ff_rubik text-center h-0 hover:text-primary smoothness"
+          to="#"
+        >
+          Privacy
+        </Link>
       </div>
     </div>
   );

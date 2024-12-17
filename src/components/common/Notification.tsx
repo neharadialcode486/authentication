@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NotificationIcon } from "./Icons";
+import { NotificationIcon } from "./Icons.tsx";
 
 const NotificationDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);

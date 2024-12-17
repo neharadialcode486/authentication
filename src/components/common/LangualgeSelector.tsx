@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { EnglishIcon, LanguageIcon2, LanguageIcon3 } from "./Icons"; // Replace with actual icons
+import { EnglishIcon, LanguageIcon2, LanguageIcon3 } from "./Icons.tsx";
 
 const LanguageSelector = () => {
   const [isOpen, setIsOpen] = useState(false); // To toggle dropdown visibility

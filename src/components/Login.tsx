@@ -2,7 +2,7 @@ import React, { ChangeEvent, FormEvent, useState } from "react";
 import { Link } from "react-router-dom";
 import rightImg from "../assets/images/right-top-img.png";
 import Copyright from "./common/Copyright.tsx";
-import { GoogleIcon, LogoIcon } from "./common/Icons.jsx";
+import { GoogleIcon, LogoIcon } from "./common/Icons.tsx";
 import PasswordInput from "./common/PasswordInput.tsx";
 import PrimaryBtn from "./common/PrimaryBtn.tsx";
 import TextInput from "./common/TextInput.tsx";
@@ -11,7 +11,6 @@ interface FormData {
   email: string;
   password: string;
 }
-
 const Login: React.FC = () => {
   const initialState: FormData = {
     email: "",

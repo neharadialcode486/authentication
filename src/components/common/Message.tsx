@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MailIcon, TopTriangleIcon } from "./Icons";
+import { MailIcon } from "./Icons.tsx";
 
 const Message = () => {
   const [isOpen, setIsOpen] = useState(false);

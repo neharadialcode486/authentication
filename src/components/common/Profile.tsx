@@ -7,7 +7,7 @@ import {
   DropdownLogoutIcon,
   DropdownSubscriptionIcon,
   DropdownSunIcon,
-} from "./Icons";
+} from "./Icons.tsx";
 
 const Profile = () => {
   const [isOpen, setIsOpen] = useState(false);

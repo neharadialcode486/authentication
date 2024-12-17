@@ -1,4 +1,6 @@
-export const GoogleIcon = () => (
+import React from "react";
+
+export const GoogleIcon: React.FC = () => (
   <svg
     width="18"
     height="18"
@@ -19,7 +21,7 @@ export const GoogleIcon = () => (
     </defs>
   </svg>
 );
-export const EyeIcon = () => (
+export const EyeIcon: React.FC = () => (
   <svg
     width="25"
     height="25"
@@ -33,7 +35,7 @@ export const EyeIcon = () => (
     />
   </svg>
 );
-export const EyeIconOpen = () => (
+export const EyeIconOpen: React.FC = () => (
   <svg
     width="22"
     height="16"
@@ -57,7 +59,7 @@ export const EyeIconOpen = () => (
     />
   </svg>
 );
-export const WecomeLogo = () => (
+export const WecomeLogo: React.FC = () => (
   <svg
     width="273"
     height="33"
@@ -201,7 +203,7 @@ export const WecomeLogo = () => (
     />
   </svg>
 );
-export const Icon1 = () => (
+export const Icon1: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -239,7 +241,7 @@ export const Icon1 = () => (
     />
   </svg>
 );
-export const Icon2 = () => (
+export const Icon2: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -264,7 +266,7 @@ export const Icon2 = () => (
     />
   </svg>
 );
-export const Icon3 = () => (
+export const Icon3: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -288,7 +290,7 @@ export const Icon3 = () => (
     />
   </svg>
 );
-export const Icon4 = () => (
+export const Icon4: React.FC = () => (
   <svg
     width="23"
     height="23"
@@ -326,7 +328,7 @@ export const Icon4 = () => (
     />
   </svg>
 );
-export const Icon5 = () => (
+export const Icon5: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -368,7 +370,7 @@ export const Icon5 = () => (
     />
   </svg>
 );
-export const Icon6 = () => (
+export const Icon6: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -420,7 +422,7 @@ export const Icon6 = () => (
     />
   </svg>
 );
-export const Icon7 = () => (
+export const Icon7: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -445,7 +447,7 @@ export const Icon7 = () => (
   </svg>
 );
 
-export const MailIcon = () => (
+export const MailIcon: React.FC = () => (
   <svg
     width="28"
     height="27"
@@ -486,7 +488,7 @@ export const MailIcon = () => (
   </svg>
 );
 
-export const NotificationIcon = () => (
+export const NotificationIcon: React.FC = () => (
   <svg
     width="28"
     height="27"
@@ -527,7 +529,7 @@ export const NotificationIcon = () => (
   </svg>
 );
 
-export const SunIcon = () => (
+export const SunIcon: React.FC = () => (
   <svg
     width="27"
     height="27"
@@ -551,7 +553,7 @@ export const SunIcon = () => (
     />
   </svg>
 );
-export const EnglishIcon = () => (
+export const EnglishIcon: React.FC = () => (
   <svg
     width="26"
     height="26"
@@ -593,7 +595,7 @@ export const EnglishIcon = () => (
   </svg>
 );
 
-export const LanguageIcon2 = () => (
+export const LanguageIcon2: React.FC = () => (
   <svg
     width="26"
     height="26"
@@ -623,7 +625,7 @@ export const LanguageIcon2 = () => (
   </svg>
 );
 
-export const LanguageIcon3 = () => (
+export const LanguageIcon3: React.FC = () => (
   <svg
     width="26"
     height="26"
@@ -652,7 +654,7 @@ export const LanguageIcon3 = () => (
     </defs>
   </svg>
 );
-export const BottomArrow = () => (
+export const BottomArrow: React.FC = () => (
   <svg
     width="9"
     height="6"
@@ -666,7 +668,10 @@ export const BottomArrow = () => (
     />
   </svg>
 );
-export const ToggleIcon = ({ navOpen }) => (
+interface ToggleIconProps {
+  navOpen: boolean;
+}
+export const ToggleIcon: React.FC<ToggleIconProps> = ({ navOpen }) => (
   <svg
     width="40"
     height="40"
@@ -680,7 +685,7 @@ export const ToggleIcon = ({ navOpen }) => (
     />
   </svg>
 );
-export const HomeIcon = () => (
+export const HomeIcon: React.FC = () => (
   <svg
     width="32"
     height="32"
@@ -694,7 +699,7 @@ export const HomeIcon = () => (
     />
   </svg>
 );
-export const TriangleIcon = () => (
+export const TriangleIcon: React.FC = () => (
   <svg
     width="32"
     height="32"
@@ -725,7 +730,7 @@ export const TriangleIcon = () => (
     />
   </svg>
 );
-export const FilterIcon = () => (
+export const FilterIcon: React.FC = () => (
   <svg
     width="32"
     height="32"
@@ -750,7 +755,7 @@ export const FilterIcon = () => (
     />
   </svg>
 );
-export const ContactIcon = () => (
+export const ContactIcon: React.FC = () => (
   <svg
     width="32"
     height="32"
@@ -788,7 +793,7 @@ export const ContactIcon = () => (
     />
   </svg>
 );
-export const TopTriangleIcon = () => (
+export const TopTriangleIcon: React.FC = () => (
   <svg
     width="12"
     height="8"
@@ -802,7 +807,7 @@ export const TopTriangleIcon = () => (
     />
   </svg>
 );
-export const DropdownContactIcon = () => (
+export const DropdownContactIcon: React.FC = () => (
   <svg
     width="16"
     height="16"
@@ -826,7 +831,7 @@ export const DropdownContactIcon = () => (
     />
   </svg>
 );
-export const DropdownDashboardIcon = () => (
+export const DropdownDashboardIcon: React.FC = () => (
   <svg
     width="16"
     height="16"
@@ -857,7 +862,7 @@ export const DropdownDashboardIcon = () => (
     />
   </svg>
 );
-export const DropdownSubscriptionIcon = () => (
+export const DropdownSubscriptionIcon: React.FC = () => (
   <svg
     width="16"
     height="16"
@@ -946,7 +951,7 @@ export const DropdownSubscriptionIcon = () => (
     />
   </svg>
 );
-export const DropdownSunIcon = () => (
+export const DropdownSunIcon: React.FC = () => (
   <svg
     width="16"
     height="16"
@@ -970,7 +975,7 @@ export const DropdownSunIcon = () => (
     />
   </svg>
 );
-export const DropdownLogoutIcon = () => (
+export const DropdownLogoutIcon: React.FC = () => (
   <svg
     width="16"
     height="16"
@@ -1001,7 +1006,7 @@ export const DropdownLogoutIcon = () => (
     />
   </svg>
 );
-export const LogoIcon = () => (
+export const LogoIcon: React.FC = () => (
   <svg
     width="57"
     height="57"
@@ -1024,6 +1029,23 @@ export const LogoIcon = () => (
     <path
       d="M22.3378 8.08643C22.8509 11.8315 24.3502 15.3742 26.6819 18.3517C29.0137 21.3292 32.0942 23.6344 35.6079 25.0312L50.737 30.7415L48.7788 18.1123L22.3378 8.08643Z"
       fill="white"
+    />
+  </svg>
+);
+export const MoonIcon: React.FC = () => (
+  <svg
+    width="25"
+    height="25"
+    viewBox="0 0 27 27"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M7.72917 6.62503C7.72917 13.3384 13.1617 18.7709 19.875 18.7709C20.4602 18.7709 21.0344 18.7267 21.5975 18.6494C19.8198 21.3767 16.7502 23.1875 13.25 23.1875C7.76229 23.1875 3.3125 18.7377 3.3125 13.25C3.3125 9.74982 5.12333 6.68024 7.85063 4.90253C7.77333 5.46565 7.72917 6.03982 7.72917 6.62503Z"
+      stroke="#0C063A"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );

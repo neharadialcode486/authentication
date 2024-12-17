@@ -7,7 +7,7 @@ import {
   LogoIcon,
   ToggleIcon,
   TriangleIcon,
-} from "./common/Icons.jsx";
+} from "./common/Icons.tsx";
 import LanguageSelector from "./common/LangualgeSelector.tsx";
 import Message from "./common/Message.tsx";
 import NotificationDropdown from "./common/Notification.tsx";

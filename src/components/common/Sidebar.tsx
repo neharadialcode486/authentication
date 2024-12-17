@@ -10,7 +10,7 @@ import {
   Icon6,
   Icon7,
   LogoIcon,
-} from "./Icons";
+} from "./Icons.tsx";
 
 const Sidebar = () => {
   const icons = [

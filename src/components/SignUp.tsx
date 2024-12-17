@@ -6,7 +6,7 @@ import {
   EyeIconOpen,
   GoogleIcon,
   WecomeLogo,
-} from "./common/Icons.jsx";
+} from "./common/Icons.tsx";
 import TextInput from "./common/TextInput.tsx";
 import PasswordInput from "./common/PasswordInput.tsx";
 import PrimaryBtn from "./common/PrimaryBtn.tsx";

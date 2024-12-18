@@ -18,7 +18,7 @@ const Theme = () => {
         title="Theme selector"
       >
         <span
-          className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white dark:bg-[#555555] dropdown_shadow"
+          className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white md:dark:bg-[#555555] dark:bg-[#3C3C3C] dropdown_shadow"
           onClick={() => setDarkMode(!darkMode)}
         >
           {darkMode ? <SunIcon /> : <MoonIcon />}

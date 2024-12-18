@@ -8,7 +8,7 @@ import SignUp from "./components/SignUp.tsx";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white">
+    <div className="min-h-screen bg-white dark:bg-[#555555] text-black dark:text-white">
       <BrowserRouter>
         <Routes>
           <Route>

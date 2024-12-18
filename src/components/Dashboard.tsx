@@ -27,7 +27,7 @@ const Dashboard = () => {
             className={`fixed bottom-0 left-[50%] translate-x-[-50%] items-center gap-[9%] justify-center sm:hidden z-10 py-3  flex px-5 smoothness ${
               navOpen
                 ? "w-full bg-primary"
-                : " bg-white w-[70px] overflow-hidden"
+                : " bg-white dark:bg-[#555555] w-[40px] overflow-hidden"
             }`}
           >
             <Link className="hover:scale-[1.2] smoothness" to="#" title="Home">
@@ -62,10 +62,13 @@ const Dashboard = () => {
               <ContactIcon />
             </Link>
           </div>
-          <div className="sm:hidden flex justify-center py-5 mt-3">
-            <Link to="/">
+          <div className="md:hidden   py-5 mt-3">
+            <Link className="sm:hidden justify-center flex mb-5 sm:mb-8" to="/">
               <LogoIcon />
             </Link>
+            <div className="md:hidden flex justify-center">
+              <HeaderIcons />
+            </div>
           </div>
           <div className="custom_height py-5 px-8 mb-12 sm:mb-0">
             <p className="md:text-[90px] sm:text-[50px] text-[20px] text-center sm:text-start">

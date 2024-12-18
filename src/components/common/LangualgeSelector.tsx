@@ -36,7 +36,7 @@ const LanguageSelector = ({
         onClick={onToggle}
         className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none"
       >
-        <span className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white dark:bg-[#555555] shadow-md">
+        <span className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white md:dark:bg-[#555555] dark:bg-[#3C3C3C] shadow-md">
           {languages.find((lang) => lang.name === selectedLanguage)?.icon}
         </span>
       </button>

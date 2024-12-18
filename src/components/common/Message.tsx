@@ -28,7 +28,7 @@ const Message = ({
         onClick={onToggle}
         className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none"
       >
-        <span className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white dark:bg-[#555555] dropdown_shadow">
+        <span className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white md:dark:bg-[#555555] dark:bg-[#3C3C3C] dropdown_shadow">
           <MailIcon />
         </span>
         <span className="top-[15px] right-[15px] absolute w-[10px] h-[10px] bg-primary rounded-full"></span>

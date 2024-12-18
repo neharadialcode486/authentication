@@ -36,19 +36,19 @@ const LanguageSelector = ({
         onClick={onToggle}
         className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none"
       >
-        <span className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white shadow-md">
+        <span className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white dark:bg-[#555555] shadow-md">
           {languages.find((lang) => lang.name === selectedLanguage)?.icon}
         </span>
       </button>
       {isOpen && (
-        <ul className="absolute right-0 mt-2 w-[50px] bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-lg z-10 py-2">
+        <ul className="absolute right-0 mt-2 w-[50px] bg-white dark:bg-[#3C3C3C] border dark:border-gray-700 rounded-lg shadow-lg z-10 py-2">
           {languages
             .filter((lang) => lang.name !== selectedLanguage)
             .map((lang) => (
               <li
                 key={lang.name}
                 onClick={() => handleLanguageChange(lang.name)}
-                className="flex justify-center items-center gap-2 px-2 py-2 text-sm cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="flex justify-center items-center gap-2 px-2 py-2 text-sm cursor-pointer hover:bg-gray-100 dark:hover:bg-[#555555]"
               >
                 {lang.icon}
               </li>

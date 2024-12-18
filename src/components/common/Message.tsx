@@ -28,20 +28,20 @@ const Message = ({
         onClick={onToggle}
         className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none"
       >
-        <span className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white dropdown_shadow">
+        <span className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white dark:bg-[#555555] dropdown_shadow">
           <MailIcon />
         </span>
         <span className="top-[15px] right-[15px] absolute w-[10px] h-[10px] bg-primary rounded-full"></span>
       </button>
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-60 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-lg z-10">
+        <div className="absolute right-0 mt-2 w-60 bg-white dark:bg-[#3C3C3C] border dark:border-gray-700 rounded-lg shadow-lg z-10">
           <ul className="max-h-60 overflow-auto py-2">
             {notifications.length > 0 ? (
               notifications.map((notification) => (
                 <li
                   key={notification.id}
                   onClick={onClose}
-                  className="px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer"
+                  className="px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-[#555555] cursor-pointer"
                 >
                   {notification.message}
                 </li>

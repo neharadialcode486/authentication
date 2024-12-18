@@ -57,7 +57,7 @@ const Profile = ({
       <button
         title="Profile"
         onClick={onToggle}
-        className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none flex items-center gap-3"
+        className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none flex items-center gap-2"
       >
         <img
           className="w-[44px] h-[44px] rounded-[8px]"
@@ -67,13 +67,13 @@ const Profile = ({
         <BottomArrow />
       </button>
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-50 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-lg z-10">
+        <div className="absolute right-0 mt-2 w-50 bg-white dark:bg-[#3C3C3C] border dark:border-gray-700 rounded-lg shadow-lg z-10">
           <ul className="max-h-60 overflow-auto px-2 py-2">
             {notifications.map((notification) => (
               <li
                 key={notification.id}
                 onClick={onClose}
-                className="px-2 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer rounded-[8px] flex items-center gap-2"
+                className="px-2 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-[#555555] cursor-pointer rounded-[8px] flex items-center gap-2"
               >
                 <span>{notification.icon}</span>
                 {notification.message}

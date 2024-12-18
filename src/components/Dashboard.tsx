@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import HeaderIcons from "./common/HeaderIcons.tsx";
 import {
   ContactIcon,
   FilterIcon,
@@ -8,51 +9,19 @@ import {
   ToggleIcon,
   TriangleIcon,
 } from "./common/Icons.tsx";
-import LanguageSelector from "./common/LangualgeSelector.tsx";
-import Message from "./common/Message.tsx";
-import NotificationDropdown from "./common/Notification.tsx";
-import Profile from "./common/Profile.tsx";
 import Sidebar from "./common/Sidebar.tsx";
-import Theme from "./common/Theme.tsx";
 
 const Dashboard = () => {
   const [navOpen, setNavOpen] = useState(false);
-  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-
-  const toggleDropdown = (dropdownName: string) => {
-    setOpenDropdown((prev) => (prev === dropdownName ? null : dropdownName));
-  };
 
   return (
     <div className="">
-      <div className="flex sm:bg-[#F4F2F3] dark:bg-[#2C2646] dark:bg-opacity-50">
+      <div className="flex sm:bg-[#F4F2F3] dark:bg-[#555555] ">
         <Sidebar />
         <div className="w-full">
-          <div className="bg-white dark:bg-[#2C2646]  sm:h-[100px] h-[70px] md:flex justify-between items-center px-8 hidden ">
+          <div className="bg-white dark:bg-[#3C3C3C]  sm:h-[100px] h-[70px] md:flex justify-between items-center px-8 hidden ">
             <p className="text-[24px] font-semibold">Dashboard</p>
-            <div className="flex items-center gap-2">
-              <Message
-                isOpen={openDropdown === "message"}
-                onToggle={() => toggleDropdown("message")}
-                onClose={() => setOpenDropdown(null)}
-              />
-              <NotificationDropdown
-                isOpen={openDropdown === "notification"}
-                onToggle={() => toggleDropdown("notification")}
-                onClose={() => setOpenDropdown(null)}
-              />
-              <Theme />
-              <LanguageSelector
-                isOpen={openDropdown === "language"}
-                onToggle={() => toggleDropdown("language")}
-                onClose={() => setOpenDropdown(null)}
-              />
-              <Profile
-                isOpen={openDropdown === "profile"}
-                onToggle={() => toggleDropdown("profile")}
-                onClose={() => setOpenDropdown(null)}
-              />
-            </div>
+            <HeaderIcons />
           </div>
           <div
             className={`fixed bottom-0 left-[50%] translate-x-[-50%] items-center gap-[9%] justify-center sm:hidden z-10 py-3  flex px-5 smoothness ${

@@ -824,6 +824,7 @@ export const DropdownContactIcon: React.FC = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="group-hover:stroke-[#000000]"
       d="M8 8.00004C9.84095 8.00004 11.3333 6.50766 11.3333 4.66671C11.3333 2.82576 9.84095 1.33337 8 1.33337C6.15905 1.33337 4.66667 2.82576 4.66667 4.66671C4.66667 6.50766 6.15905 8.00004 8 8.00004Z"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -831,6 +832,7 @@ export const DropdownContactIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M13.7267 14.6667C13.7267 12.0867 11.16 10 8 10C4.84 10 2.27333 12.0867 2.27333 14.6667"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -848,6 +850,7 @@ export const DropdownDashboardIcon: React.FC = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="group-hover:stroke-[#000000]"
       d="M14.6667 8.66671V6.00004C14.6667 2.66671 13.3333 1.33337 10 1.33337H6C2.66667 1.33337 1.33333 2.66671 1.33333 6.00004V10C1.33333 13.3334 2.66667 14.6667 6 14.6667H8.66667"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -855,6 +858,7 @@ export const DropdownDashboardIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M4.88666 9.65997L6.47333 7.59997C6.69999 7.30663 7.12 7.2533 7.41333 7.47997L8.63334 8.43997C8.92667 8.66664 9.34666 8.61331 9.57332 8.32664L11.1133 6.33997"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -862,6 +866,7 @@ export const DropdownDashboardIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M12.9867 10.5467L13.1733 10.9267C13.2667 11.1134 13.5 11.2867 13.7067 11.3267L13.96 11.3667C14.72 11.4934 14.9 12.0534 14.3533 12.6067L14.12 12.84C13.9667 13 13.88 13.3067 13.9267 13.52L13.96 13.66C14.1667 14.58 13.68 14.9334 12.88 14.4534L12.7067 14.3534C12.5 14.2334 12.1667 14.2334 11.96 14.3534L11.7867 14.4534C10.98 14.94 10.4933 14.58 10.7067 13.66L10.74 13.52C10.7867 13.3067 10.7 13 10.5467 12.84L10.3133 12.6067C9.76666 12.0534 9.94666 11.4934 10.7067 11.3667L10.96 11.3267C11.16 11.2934 11.4 11.1134 11.4933 10.9267L11.68 10.5467C12.04 9.82004 12.6267 9.82004 12.9867 10.5467Z"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -879,6 +884,7 @@ export const DropdownSubscriptionIcon: React.FC = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="group-hover:stroke-[#000000]"
       d="M1.33333 5.66663H8.66667"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -887,6 +893,7 @@ export const DropdownSubscriptionIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M4 11H5.33333"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -895,6 +902,7 @@ export const DropdownSubscriptionIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M7 11H9.66667"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -903,6 +911,7 @@ export const DropdownSubscriptionIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M14.6667 7.55339V10.74C14.6667 13.08 14.0733 13.6667 11.7067 13.6667H4.29333C1.92667 13.6667 1.33333 13.08 1.33333 10.74V5.26005C1.33333 2.92005 1.92667 2.33337 4.29333 2.33337H8.85333"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -910,6 +919,7 @@ export const DropdownSubscriptionIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M11.3333 2.16675H13.42C13.88 2.16675 14.2533 2.58675 14.2533 3.00008C14.2533 3.46008 13.88 3.83341 13.42 3.83341H11.3333V2.16675Z"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -918,6 +928,7 @@ export const DropdownSubscriptionIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M11.3333 3.83337H13.7133C14.24 3.83337 14.6667 4.20671 14.6667 4.66671C14.6667 5.12671 14.24 5.50004 13.7133 5.50004H11.3333V3.83337Z"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -926,6 +937,7 @@ export const DropdownSubscriptionIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M12.5067 5.5V6.33333"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -934,6 +946,7 @@ export const DropdownSubscriptionIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M12.5067 1.33337V2.16671"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -942,6 +955,7 @@ export const DropdownSubscriptionIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M12.1267 2.16675H10.6667"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -950,6 +964,7 @@ export const DropdownSubscriptionIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M12.1267 5.5H10.6667"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -968,6 +983,7 @@ export const DropdownSunIcon: React.FC = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="group-hover:stroke-[#000000]"
       d="M8 12.3333C10.3932 12.3333 12.3333 10.3932 12.3333 7.99996C12.3333 5.60673 10.3932 3.66663 8 3.66663C5.60677 3.66663 3.66667 5.60673 3.66667 7.99996C3.66667 10.3932 5.60677 12.3333 8 12.3333Z"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -975,6 +991,7 @@ export const DropdownSunIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M12.76 12.76L12.6733 12.6734M12.6733 3.32671L12.76 3.24004L12.6733 3.32671ZM3.24 12.76L3.32667 12.6734L3.24 12.76ZM8 1.38671V1.33337V1.38671ZM8 14.6667V14.6134V14.6667ZM1.38667 8.00004H1.33333H1.38667ZM14.6667 8.00004H14.6133H14.6667ZM3.32667 3.32671L3.24 3.24004L3.32667 3.32671Z"
       stroke="#7E7E8F"
       strokeWidth="2"
@@ -992,6 +1009,7 @@ export const DropdownLogoutIcon: React.FC = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="group-hover:stroke-[#000000]"
       d="M5.93333 5.04003C6.14 2.64003 7.37333 1.66003 10.0733 1.66003H10.16C13.14 1.66003 14.3333 2.85337 14.3333 5.83337V10.18C14.3333 13.16 13.14 14.3534 10.16 14.3534H10.0733C7.39333 14.3534 6.16 13.3867 5.94 11.0267"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -999,6 +1017,7 @@ export const DropdownLogoutIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M10 8H2.41333"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -1006,6 +1025,7 @@ export const DropdownLogoutIcon: React.FC = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M3.9 5.76672L1.66667 8.00006L3.9 10.2334"
       stroke="#7E7E8F"
       strokeWidth="1.5"

@@ -73,7 +73,7 @@ const Profile = ({
               <li
                 key={notification.id}
                 onClick={onClose}
-                className="px-2 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-[#555555] cursor-pointer rounded-[8px] flex items-center gap-2"
+                className="px-2 group py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-[#ECECEC] hover:text-[#000000] dark:hover:text-[#000000] cursor-pointer rounded-[8px] flex items-center gap-2"
               >
                 <span>{notification.icon}</span>
                 {notification.message}

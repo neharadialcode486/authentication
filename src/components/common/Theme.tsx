@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { MailIcon, SunIcon } from "./Icons";
+import { useEffect, useState } from "react";
+import { MoonIcon, SunIcon } from "./Icons.tsx";
 
 const Theme = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -18,10 +18,10 @@ const Theme = () => {
         title="Theme selector"
       >
         <span
-          className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white dropdown_shadow"
+          className="h-[44px] w-[44px] flex flex-col justify-center items-center rounded-[8px] bg-white md:dark:bg-lightGrey dark:bg-darkGrey dropdown_shadow"
           onClick={() => setDarkMode(!darkMode)}
         >
-          <SunIcon />
+          {darkMode ? <SunIcon /> : <MoonIcon />}
         </span>
       </button>
     </div>

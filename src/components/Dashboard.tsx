@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import HeaderIcons from "./common/HeaderIcons.tsx";
 import {
   ContactIcon,
   FilterIcon,
@@ -7,36 +8,26 @@ import {
   LogoIcon,
   ToggleIcon,
   TriangleIcon,
-} from "./common/Icons.jsx";
-import LanguageSelector from "./common/LangualgeSelector.tsx";
-import Message from "./common/Message.tsx";
-import NotificationDropdown from "./common/Notification.tsx";
-import Profile from "./common/Profile.tsx";
+} from "./common/Icons.tsx";
 import Sidebar from "./common/Sidebar.tsx";
-import Theme from "./common/Theme.tsx";
 
 const Dashboard = () => {
   const [navOpen, setNavOpen] = useState(false);
+
   return (
     <div className="">
-      <div className="flex sm:bg-[#F4F2F3] dark:bg-[#2C2646] dark:bg-opacity-50">
+      <div className="flex sm:bg-[#F4F2F3] dark:bg-lightGrey ">
         <Sidebar />
         <div className="w-full">
-          <div className="bg-white dark:bg-[#2C2646]  sm:h-[100px] h-[70px] md:flex justify-between items-center px-8 hidden ">
+          <div className="bg-white dark:bg-darkGrey  sm:h-[100px] h-[70px] md:flex justify-between items-center px-8 hidden ">
             <p className="text-[24px] font-semibold">Dashboard</p>
-            <div className="flex items-center gap-2">
-              <Message />
-              <NotificationDropdown />
-              <Theme />
-              <LanguageSelector />
-              <Profile />
-            </div>
+            <HeaderIcons />
           </div>
           <div
             className={`fixed bottom-0 left-[50%] translate-x-[-50%] items-center gap-[9%] justify-center sm:hidden z-10 py-3  flex px-5 smoothness ${
               navOpen
                 ? "w-full bg-primary"
-                : " bg-white w-[70px] overflow-hidden"
+                : " bg-white dark:bg-lightGrey w-[40px] overflow-hidden"
             }`}
           >
             <Link className="hover:scale-[1.2] smoothness" to="#" title="Home">
@@ -71,10 +62,13 @@ const Dashboard = () => {
               <ContactIcon />
             </Link>
           </div>
-          <div className="sm:hidden flex justify-center py-5 mt-3">
-            <Link to="/">
+          <div className="md:hidden   py-5 mt-3">
+            <Link className="sm:hidden justify-center flex mb-5 sm:mb-8" to="/">
               <LogoIcon />
             </Link>
+            <div className="md:hidden flex justify-center">
+              <HeaderIcons />
+            </div>
           </div>
           <div className="custom_height py-5 px-8 mb-12 sm:mb-0">
             <p className="md:text-[90px] sm:text-[50px] text-[20px] text-center sm:text-start">

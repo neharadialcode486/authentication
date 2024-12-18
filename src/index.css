@@ -27,9 +27,9 @@ body {
   }
 }
 
-@media (max-width: 639.9px) {
+@media (max-width: 767.9px) {
   .custom_height {
-    height: 100%;
+    height: auto;
     overflow-y: auto;
   }
 }

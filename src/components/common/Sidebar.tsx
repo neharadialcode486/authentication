@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import curve from "../../assets/images/side-curve.jpeg";
 import {
@@ -10,7 +9,7 @@ import {
   Icon6,
   Icon7,
   LogoIcon,
-} from "./Icons";
+} from "./Icons.tsx";
 
 const Sidebar = () => {
   const icons = [
@@ -51,7 +50,7 @@ const Sidebar = () => {
     },
   ];
   return (
-    <div className="h-screen w-[120px] sm:flex flex-col justify-between items-center bg-white dark:bg-[#2C2646] relative hidden py-3 px-5">
+    <div className="h-screen w-[120px] sm:flex flex-col justify-between items-center bg-white dark:bg-darkGrey relative hidden py-3 xl:px-5 px-2">
       <img
         className="absolute top-[50%] translate-y-[-50%] left-0"
         src={curve}

@@ -1,5 +1,5 @@
 import React from "react";
-import { EyeIcon, EyeIconOpen } from "./Icons";
+import { EyeIcon, EyeIconOpen } from "./Icons.tsx";
 import { Link } from "react-router-dom";
 
 interface PasswordInputProps {

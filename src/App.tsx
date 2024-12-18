@@ -1,18 +1,14 @@
-import React from "react";
-import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
+import "./App.css";
 import Dashboard from "./components/Dashboard.tsx";
 import Login from "./components/Login.tsx";
 import ResetPassword from "./components/ResetPassword.tsx";
 import SetPassword from "./components/SetPassword.tsx";
-import SignUp from "./components/SignUp.tsx"; 
+import SignUp from "./components/SignUp.tsx";
 
-function App() { 
-
+const App = () => {
   return (
-    <>
-    <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white">
+    <div className="min-h-screen bg-white dark:bg-lightGrey text-black dark:text-white">
       <BrowserRouter>
         <Routes>
           <Route>
@@ -26,8 +22,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </div>
-    </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

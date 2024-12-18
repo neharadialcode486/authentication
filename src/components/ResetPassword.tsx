@@ -2,7 +2,7 @@ import React, { ChangeEvent, FormEvent, useState } from "react";
 import { Link } from "react-router-dom";
 import rightImg from "../assets/images/right-top-img.png";
 import Copyright from "./common/Copyright.tsx";
-import { LogoIcon } from "./common/Icons";
+import { LogoIcon } from "./common/Icons.tsx";
 import PrimaryBtn from "./common/PrimaryBtn.tsx";
 import TextInput from "./common/TextInput.tsx";
 

@@ -1,4 +1,6 @@
-export const GoogleIcon = () => (
+import React from "react";
+
+export const GoogleIcon: React.FC = () => (
   <svg
     width="18"
     height="18"
@@ -19,7 +21,7 @@ export const GoogleIcon = () => (
     </defs>
   </svg>
 );
-export const EyeIcon = () => (
+export const EyeIcon: React.FC = () => (
   <svg
     width="25"
     height="25"
@@ -33,7 +35,7 @@ export const EyeIcon = () => (
     />
   </svg>
 );
-export const EyeIconOpen = () => (
+export const EyeIconOpen: React.FC = () => (
   <svg
     width="22"
     height="16"
@@ -57,7 +59,7 @@ export const EyeIconOpen = () => (
     />
   </svg>
 );
-export const WecomeLogo = () => (
+export const WecomeLogo: React.FC = () => (
   <svg
     width="273"
     height="33"
@@ -201,7 +203,7 @@ export const WecomeLogo = () => (
     />
   </svg>
 );
-export const Icon1 = () => (
+export const Icon1: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -239,7 +241,7 @@ export const Icon1 = () => (
     />
   </svg>
 );
-export const Icon2 = () => (
+export const Icon2: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -264,7 +266,7 @@ export const Icon2 = () => (
     />
   </svg>
 );
-export const Icon3 = () => (
+export const Icon3: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -288,7 +290,7 @@ export const Icon3 = () => (
     />
   </svg>
 );
-export const Icon4 = () => (
+export const Icon4: React.FC = () => (
   <svg
     width="23"
     height="23"
@@ -326,7 +328,7 @@ export const Icon4 = () => (
     />
   </svg>
 );
-export const Icon5 = () => (
+export const Icon5: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -368,7 +370,7 @@ export const Icon5 = () => (
     />
   </svg>
 );
-export const Icon6 = () => (
+export const Icon6: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -420,7 +422,7 @@ export const Icon6 = () => (
     />
   </svg>
 );
-export const Icon7 = () => (
+export const Icon7: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -445,7 +447,7 @@ export const Icon7 = () => (
   </svg>
 );
 
-export const MailIcon = () => (
+export const MailIcon: React.FC = () => (
   <svg
     width="28"
     height="27"
@@ -454,6 +456,7 @@ export const MailIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="dark:fill-white"
       fillRule="evenodd"
       clipRule="evenodd"
       d="M13.7546 15.1114C13.0187 15.1114 12.285 14.8683 11.6712 14.3821L6.7377 10.4045C6.3824 10.1185 6.3274 9.5982 6.6123 9.244C6.8994 8.8909 7.4186 8.8348 7.7728 9.1197L12.7019 13.0929C13.3212 13.5835 14.1935 13.5835 14.8172 13.0885L19.6968 9.1219C20.051 8.8326 20.5702 8.8876 20.8584 9.2418C21.1455 9.5949 21.0916 10.1141 20.7385 10.4023L15.8501 14.3755C15.2319 14.8661 14.4927 15.1114 13.7546 15.1114Z"
@@ -477,6 +480,7 @@ export const MailIcon = () => (
     </mask>
     <g mask="url(#mask0_24_3932)">
       <path
+        className="dark:fill-white"
         fillRule="evenodd"
         clipRule="evenodd"
         d="M8.3228 22.3001H19.1248C19.127 22.2979 19.1358 22.3001 19.1424 22.3001C20.3975 22.3001 21.5107 21.8513 22.3643 20.9988C23.3554 20.0121 23.8999 18.5942 23.8999 17.0069V9.45212C23.8999 6.37982 21.8913 4.15012 19.1248 4.15012H8.325C5.5585 4.15012 3.5499 6.37982 3.5499 9.45212V17.0069C3.5499 18.5942 4.0955 20.0121 5.0855 20.9988C5.9391 21.8513 7.0534 22.3001 8.3074 22.3001H8.3228ZM8.3041 23.9501C6.6068 23.9501 5.091 23.3341 3.9206 22.1681C2.6171 20.8679 1.8999 19.0353 1.8999 17.0069V9.45212C1.8999 5.48882 4.662 2.50012 8.325 2.50012H19.1248C22.7878 2.50012 25.5499 5.48882 25.5499 9.45212V17.0069C25.5499 19.0353 24.8327 20.8679 23.5292 22.1681C22.3599 23.333 20.843 23.9501 19.1424 23.9501H19.1248H8.325H8.3041Z"
@@ -486,7 +490,7 @@ export const MailIcon = () => (
   </svg>
 );
 
-export const NotificationIcon = () => (
+export const NotificationIcon: React.FC = () => (
   <svg
     width="28"
     height="27"
@@ -512,6 +516,7 @@ export const NotificationIcon = () => (
     </mask>
     <g mask="url(#mask0_24_3942)">
       <path
+        className="dark:fill-white"
         fillRule="evenodd"
         clipRule="evenodd"
         d="M14.2718 3.05009C10.4273 3.05009 7.74771 6.06189 7.74771 8.76459C7.74771 11.0515 7.11301 12.1086 6.55201 13.0414C6.10211 13.7905 5.74681 14.3823 5.74681 15.6682C5.93051 17.7428 7.30001 18.8329 14.2718 18.8329C21.2051 18.8329 22.6175 17.6944 22.8001 15.5967C22.7968 14.3823 22.4415 13.7905 21.9916 13.0414C21.4306 12.1086 20.7959 11.0515 20.7959 8.76459C20.7959 6.06189 18.1163 3.05009 14.2718 3.05009ZM14.2718 20.4829C9.12821 20.4829 4.47961 20.1199 4.10011 15.7386C4.09681 13.9258 4.65011 13.004 5.13851 12.1922C5.63241 11.3694 6.09771 10.5939 6.09771 8.76459C6.09771 5.20829 9.38231 1.40009 14.2718 1.40009C19.1613 1.40009 22.4459 5.20829 22.4459 8.76459C22.4459 10.5939 22.9112 11.3694 23.4051 12.1922C23.8935 13.004 24.4468 13.9258 24.4468 15.6682C24.0629 20.1199 19.4154 20.4829 14.2718 20.4829Z"
@@ -519,6 +524,7 @@ export const NotificationIcon = () => (
       />
     </g>
     <path
+      className="dark:fill-white"
       fillRule="evenodd"
       clipRule="evenodd"
       d="M14.2181 25.0501H14.2159C12.9828 25.049 11.8157 24.5056 10.9302 23.5189C10.6255 23.1812 10.653 22.6587 10.9918 22.3551C11.3306 22.0493 11.852 22.0768 12.1567 22.4167C12.7265 23.0514 13.458 23.4001 14.217 23.4001H14.2181C14.9804 23.4001 15.7152 23.0514 16.2861 22.4156C16.5919 22.0779 17.1133 22.0504 17.451 22.3551C17.7898 22.6598 17.8173 23.1823 17.5126 23.52C16.6238 24.5067 15.4545 25.0501 14.2181 25.0501Z"
@@ -527,7 +533,7 @@ export const NotificationIcon = () => (
   </svg>
 );
 
-export const SunIcon = () => (
+export const SunIcon: React.FC = () => (
   <svg
     width="27"
     height="27"
@@ -536,6 +542,7 @@ export const SunIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="dark:stroke-white"
       d="M13.2 20.85C17.1488 20.85 20.35 17.6488 20.35 13.7C20.35 9.75115 17.1488 6.54999 13.2 6.54999C9.25117 6.54999 6.05 9.75115 6.05 13.7C6.05 17.6488 9.25117 20.85 13.2 20.85Z"
       stroke="black"
       strokeWidth="1.5"
@@ -543,6 +550,7 @@ export const SunIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="dark:stroke-white"
       d="M21.054 21.554L20.911 21.411M20.911 5.98901L21.054 5.84601L20.911 5.98901ZM5.346 21.554L5.489 21.411L5.346 21.554ZM13.2 2.78801V2.70001V2.78801ZM13.2 24.7V24.612V24.7ZM2.288 13.7H2.2H2.288ZM24.2 13.7H24.112H24.2ZM5.489 5.98901L5.346 5.84601L5.489 5.98901Z"
       stroke="black"
       strokeWidth="2"
@@ -551,7 +559,7 @@ export const SunIcon = () => (
     />
   </svg>
 );
-export const EnglishIcon = () => (
+export const EnglishIcon: React.FC = () => (
   <svg
     width="26"
     height="26"
@@ -593,7 +601,7 @@ export const EnglishIcon = () => (
   </svg>
 );
 
-export const LanguageIcon2 = () => (
+export const LanguageIcon2: React.FC = () => (
   <svg
     width="26"
     height="26"
@@ -623,7 +631,7 @@ export const LanguageIcon2 = () => (
   </svg>
 );
 
-export const LanguageIcon3 = () => (
+export const LanguageIcon3: React.FC = () => (
   <svg
     width="26"
     height="26"
@@ -652,7 +660,7 @@ export const LanguageIcon3 = () => (
     </defs>
   </svg>
 );
-export const BottomArrow = () => (
+export const BottomArrow: React.FC = () => (
   <svg
     width="9"
     height="6"
@@ -661,12 +669,16 @@ export const BottomArrow = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="dark:fill-white"
       d="M4.2775 5.5275C4.0875 5.5275 3.8975 5.4575 3.7475 5.3075L0.2175 1.7775C-0.0725 1.4875 -0.0725 1.0075 0.2175 0.7175C0.5075 0.4275 0.9875 0.4275 1.2775 0.7175L4.2775 3.7175L7.2775 0.7175C7.5675 0.4275 8.0475 0.4275 8.3375 0.7175C8.6275 1.0075 8.6275 1.4875 8.3375 1.7775L4.8075 5.3075C4.6575 5.4575 4.4675 5.5275 4.2775 5.5275Z"
       fill="#5D5B73"
     />
   </svg>
 );
-export const ToggleIcon = ({ navOpen }) => (
+interface ToggleIconProps {
+  navOpen: boolean;
+}
+export const ToggleIcon: React.FC<ToggleIconProps> = ({ navOpen }) => (
   <svg
     width="40"
     height="40"
@@ -675,12 +687,13 @@ export const ToggleIcon = ({ navOpen }) => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="dark:fill-white"
       d="M28.38 0H11.62C4.34 0 0 4.34 0 11.62V28.36C0 35.66 4.34 40 11.62 40H28.36C35.64 40 39.98 35.66 39.98 28.38V11.62C40 4.34 35.66 0 28.38 0ZM30 30.5H10C9.18 30.5 8.5 29.82 8.5 29C8.5 28.18 9.18 27.5 10 27.5H30C30.82 27.5 31.5 28.18 31.5 29C31.5 29.82 30.82 30.5 30 30.5ZM30 21.5H10C9.18 21.5 8.5 20.82 8.5 20C8.5 19.18 9.18 18.5 10 18.5H30C30.82 18.5 31.5 19.18 31.5 20C31.5 20.82 30.82 21.5 30 21.5ZM30 12.5H10C9.18 12.5 8.5 11.82 8.5 11C8.5 10.18 9.18 9.5 10 9.5H30C30.82 9.5 31.5 10.18 31.5 11C31.5 11.82 30.82 12.5 30 12.5Z"
       fill={navOpen ? "white" : "#FF5C00"}
     />
   </svg>
 );
-export const HomeIcon = () => (
+export const HomeIcon: React.FC = () => (
   <svg
     width="32"
     height="32"
@@ -694,7 +707,7 @@ export const HomeIcon = () => (
     />
   </svg>
 );
-export const TriangleIcon = () => (
+export const TriangleIcon: React.FC = () => (
   <svg
     width="32"
     height="32"
@@ -725,7 +738,7 @@ export const TriangleIcon = () => (
     />
   </svg>
 );
-export const FilterIcon = () => (
+export const FilterIcon: React.FC = () => (
   <svg
     width="32"
     height="32"
@@ -750,7 +763,7 @@ export const FilterIcon = () => (
     />
   </svg>
 );
-export const ContactIcon = () => (
+export const ContactIcon: React.FC = () => (
   <svg
     width="32"
     height="32"
@@ -788,7 +801,7 @@ export const ContactIcon = () => (
     />
   </svg>
 );
-export const TopTriangleIcon = () => (
+export const TopTriangleIcon: React.FC = () => (
   <svg
     width="12"
     height="8"
@@ -802,7 +815,7 @@ export const TopTriangleIcon = () => (
     />
   </svg>
 );
-export const DropdownContactIcon = () => (
+export const DropdownContactIcon: React.FC = () => (
   <svg
     width="16"
     height="16"
@@ -811,6 +824,7 @@ export const DropdownContactIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="group-hover:stroke-[#000000]"
       d="M8 8.00004C9.84095 8.00004 11.3333 6.50766 11.3333 4.66671C11.3333 2.82576 9.84095 1.33337 8 1.33337C6.15905 1.33337 4.66667 2.82576 4.66667 4.66671C4.66667 6.50766 6.15905 8.00004 8 8.00004Z"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -818,6 +832,7 @@ export const DropdownContactIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M13.7267 14.6667C13.7267 12.0867 11.16 10 8 10C4.84 10 2.27333 12.0867 2.27333 14.6667"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -826,7 +841,7 @@ export const DropdownContactIcon = () => (
     />
   </svg>
 );
-export const DropdownDashboardIcon = () => (
+export const DropdownDashboardIcon: React.FC = () => (
   <svg
     width="16"
     height="16"
@@ -835,6 +850,7 @@ export const DropdownDashboardIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="group-hover:stroke-[#000000]"
       d="M14.6667 8.66671V6.00004C14.6667 2.66671 13.3333 1.33337 10 1.33337H6C2.66667 1.33337 1.33333 2.66671 1.33333 6.00004V10C1.33333 13.3334 2.66667 14.6667 6 14.6667H8.66667"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -842,6 +858,7 @@ export const DropdownDashboardIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M4.88666 9.65997L6.47333 7.59997C6.69999 7.30663 7.12 7.2533 7.41333 7.47997L8.63334 8.43997C8.92667 8.66664 9.34666 8.61331 9.57332 8.32664L11.1133 6.33997"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -849,6 +866,7 @@ export const DropdownDashboardIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M12.9867 10.5467L13.1733 10.9267C13.2667 11.1134 13.5 11.2867 13.7067 11.3267L13.96 11.3667C14.72 11.4934 14.9 12.0534 14.3533 12.6067L14.12 12.84C13.9667 13 13.88 13.3067 13.9267 13.52L13.96 13.66C14.1667 14.58 13.68 14.9334 12.88 14.4534L12.7067 14.3534C12.5 14.2334 12.1667 14.2334 11.96 14.3534L11.7867 14.4534C10.98 14.94 10.4933 14.58 10.7067 13.66L10.74 13.52C10.7867 13.3067 10.7 13 10.5467 12.84L10.3133 12.6067C9.76666 12.0534 9.94666 11.4934 10.7067 11.3667L10.96 11.3267C11.16 11.2934 11.4 11.1134 11.4933 10.9267L11.68 10.5467C12.04 9.82004 12.6267 9.82004 12.9867 10.5467Z"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -857,7 +875,7 @@ export const DropdownDashboardIcon = () => (
     />
   </svg>
 );
-export const DropdownSubscriptionIcon = () => (
+export const DropdownSubscriptionIcon: React.FC = () => (
   <svg
     width="16"
     height="16"
@@ -866,6 +884,7 @@ export const DropdownSubscriptionIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="group-hover:stroke-[#000000]"
       d="M1.33333 5.66663H8.66667"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -874,6 +893,7 @@ export const DropdownSubscriptionIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M4 11H5.33333"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -882,6 +902,7 @@ export const DropdownSubscriptionIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M7 11H9.66667"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -890,6 +911,7 @@ export const DropdownSubscriptionIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M14.6667 7.55339V10.74C14.6667 13.08 14.0733 13.6667 11.7067 13.6667H4.29333C1.92667 13.6667 1.33333 13.08 1.33333 10.74V5.26005C1.33333 2.92005 1.92667 2.33337 4.29333 2.33337H8.85333"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -897,6 +919,7 @@ export const DropdownSubscriptionIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M11.3333 2.16675H13.42C13.88 2.16675 14.2533 2.58675 14.2533 3.00008C14.2533 3.46008 13.88 3.83341 13.42 3.83341H11.3333V2.16675Z"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -905,6 +928,7 @@ export const DropdownSubscriptionIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M11.3333 3.83337H13.7133C14.24 3.83337 14.6667 4.20671 14.6667 4.66671C14.6667 5.12671 14.24 5.50004 13.7133 5.50004H11.3333V3.83337Z"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -913,6 +937,7 @@ export const DropdownSubscriptionIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M12.5067 5.5V6.33333"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -921,6 +946,7 @@ export const DropdownSubscriptionIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M12.5067 1.33337V2.16671"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -929,6 +955,7 @@ export const DropdownSubscriptionIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M12.1267 2.16675H10.6667"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -937,6 +964,7 @@ export const DropdownSubscriptionIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M12.1267 5.5H10.6667"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -946,7 +974,7 @@ export const DropdownSubscriptionIcon = () => (
     />
   </svg>
 );
-export const DropdownSunIcon = () => (
+export const DropdownSunIcon: React.FC = () => (
   <svg
     width="16"
     height="16"
@@ -955,6 +983,7 @@ export const DropdownSunIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="group-hover:stroke-[#000000]"
       d="M8 12.3333C10.3932 12.3333 12.3333 10.3932 12.3333 7.99996C12.3333 5.60673 10.3932 3.66663 8 3.66663C5.60677 3.66663 3.66667 5.60673 3.66667 7.99996C3.66667 10.3932 5.60677 12.3333 8 12.3333Z"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -962,6 +991,7 @@ export const DropdownSunIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M12.76 12.76L12.6733 12.6734M12.6733 3.32671L12.76 3.24004L12.6733 3.32671ZM3.24 12.76L3.32667 12.6734L3.24 12.76ZM8 1.38671V1.33337V1.38671ZM8 14.6667V14.6134V14.6667ZM1.38667 8.00004H1.33333H1.38667ZM14.6667 8.00004H14.6133H14.6667ZM3.32667 3.32671L3.24 3.24004L3.32667 3.32671Z"
       stroke="#7E7E8F"
       strokeWidth="2"
@@ -970,7 +1000,7 @@ export const DropdownSunIcon = () => (
     />
   </svg>
 );
-export const DropdownLogoutIcon = () => (
+export const DropdownLogoutIcon: React.FC = () => (
   <svg
     width="16"
     height="16"
@@ -979,6 +1009,7 @@ export const DropdownLogoutIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
+      className="group-hover:stroke-[#000000]"
       d="M5.93333 5.04003C6.14 2.64003 7.37333 1.66003 10.0733 1.66003H10.16C13.14 1.66003 14.3333 2.85337 14.3333 5.83337V10.18C14.3333 13.16 13.14 14.3534 10.16 14.3534H10.0733C7.39333 14.3534 6.16 13.3867 5.94 11.0267"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -986,6 +1017,7 @@ export const DropdownLogoutIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M10 8H2.41333"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -993,6 +1025,7 @@ export const DropdownLogoutIcon = () => (
       strokeLinejoin="round"
     />
     <path
+      className="group-hover:stroke-[#000000]"
       d="M3.9 5.76672L1.66667 8.00006L3.9 10.2334"
       stroke="#7E7E8F"
       strokeWidth="1.5"
@@ -1001,7 +1034,7 @@ export const DropdownLogoutIcon = () => (
     />
   </svg>
 );
-export const LogoIcon = () => (
+export const LogoIcon: React.FC = () => (
   <svg
     width="57"
     height="57"
@@ -1024,6 +1057,24 @@ export const LogoIcon = () => (
     <path
       d="M22.3378 8.08643C22.8509 11.8315 24.3502 15.3742 26.6819 18.3517C29.0137 21.3292 32.0942 23.6344 35.6079 25.0312L50.737 30.7415L48.7788 18.1123L22.3378 8.08643Z"
       fill="white"
+    />
+  </svg>
+);
+export const MoonIcon: React.FC = () => (
+  <svg
+    width="25"
+    height="25"
+    viewBox="0 0 27 27"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      className="dark:stroke-white"
+      d="M7.72917 6.62503C7.72917 13.3384 13.1617 18.7709 19.875 18.7709C20.4602 18.7709 21.0344 18.7267 21.5975 18.6494C19.8198 21.3767 16.7502 23.1875 13.25 23.1875C7.76229 23.1875 3.3125 18.7377 3.3125 13.25C3.3125 9.74982 5.12333 6.68024 7.85063 4.90253C7.77333 5.46565 7.72917 6.03982 7.72917 6.62503Z"
+      stroke="#0C063A"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );

@@ -1,9 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./src/**/*.{html,js,jsx,tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       fontSize: {
@@ -18,9 +16,12 @@ export default {
       colors: {
         primary: "#FF5C00",
         grey: "#F4F4F6",
+        offwhite: "#ECECEC",
+        darkGrey: "#3C3C3C",
+        lightGrey: "#555555",
         black: {
           default: "#000000",
-          dark: "white",
+          dark: "#FFFFFF",
         },
         blue: "#0027B4",
       },
@@ -30,5 +31,4 @@ export default {
     },
   },
   plugins: [],
-}
-
+};

@@ -34,7 +34,7 @@ const Message = ({
         <span className="top-[15px] right-[15px] absolute w-[10px] h-[10px] bg-primary rounded-full"></span>
       </button>
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-60 bg-white dark:bg-[#3C3C3C] border dark:border-gray-700 rounded-lg shadow-lg z-10">
+        <div className="absolute sm:right-0 right-[-190px] mt-2 w-60 bg-white dark:bg-[#3C3C3C] border dark:border-gray-700 rounded-lg shadow-lg z-10">
           <ul className="max-h-60 overflow-auto py-2">
             {notifications.length > 0 ? (
               notifications.map((notification) => (

@@ -41,14 +41,14 @@ const LanguageSelector = ({
         </span>
       </button>
       {isOpen && (
-        <ul className="absolute right-0 mt-2 w-[50px] bg-white dark:bg-[#3C3C3C] border dark:border-gray-700 rounded-lg shadow-lg z-10 py-2">
+        <ul className="absolute right-0 mt-2 w-[60px] bg-white dark:bg-[#3C3C3C] border dark:border-gray-700 rounded-lg shadow-lg z-10 py-2 px-2">
           {languages
             .filter((lang) => lang.name !== selectedLanguage)
             .map((lang) => (
               <li
                 key={lang.name}
                 onClick={() => handleLanguageChange(lang.name)}
-                className="flex justify-center items-center gap-2 px-2 py-2 text-sm cursor-pointer hover:bg-gray-100 dark:hover:bg-[#555555]"
+                className="flex justify-center items-center gap-1 px-1 py-2 text-sm cursor-pointer hover:bg-gray-100 dark:hover:bg-[#ECECEC] rounded-[6px]"
               >
                 {lang.icon}
               </li>

@@ -16,10 +16,10 @@ const Dashboard = () => {
 
   return (
     <div className="">
-      <div className="flex sm:bg-[#F4F2F3] dark:bg-[#555555] ">
+      <div className="flex sm:bg-[#F4F2F3] dark:bg-lightGrey ">
         <Sidebar />
         <div className="w-full">
-          <div className="bg-white dark:bg-[#3C3C3C]  sm:h-[100px] h-[70px] md:flex justify-between items-center px-8 hidden ">
+          <div className="bg-white dark:bg-darkGrey  sm:h-[100px] h-[70px] md:flex justify-between items-center px-8 hidden ">
             <p className="text-[24px] font-semibold">Dashboard</p>
             <HeaderIcons />
           </div>
@@ -27,7 +27,7 @@ const Dashboard = () => {
             className={`fixed bottom-0 left-[50%] translate-x-[-50%] items-center gap-[9%] justify-center sm:hidden z-10 py-3  flex px-5 smoothness ${
               navOpen
                 ? "w-full bg-primary"
-                : " bg-white dark:bg-[#555555] w-[40px] overflow-hidden"
+                : " bg-white dark:bg-lightGrey w-[40px] overflow-hidden"
             }`}
           >
             <Link className="hover:scale-[1.2] smoothness" to="#" title="Home">

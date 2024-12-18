@@ -51,7 +51,7 @@ const Sidebar = () => {
     },
   ];
   return (
-    <div className="h-screen w-[120px] sm:flex flex-col justify-between items-center bg-white dark:bg-[#3C3C3C] relative hidden py-3 xl:px-5 px-2">
+    <div className="h-screen w-[120px] sm:flex flex-col justify-between items-center bg-white dark:bg-darkGrey relative hidden py-3 xl:px-5 px-2">
       <img
         className="absolute top-[50%] translate-y-[-50%] left-0"
         src={curve}

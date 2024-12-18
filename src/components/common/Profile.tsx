@@ -67,13 +67,13 @@ const Profile = ({
         <BottomArrow />
       </button>
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-50 bg-white dark:bg-[#3C3C3C] border dark:border-gray-700 rounded-lg shadow-lg z-10">
+        <div className="absolute right-0 mt-2 w-50 bg-white dark:bg-darkGrey border dark:border-gray-700 rounded-lg shadow-lg z-10">
           <ul className="max-h-60 overflow-auto px-2 py-2">
             {notifications.map((notification) => (
               <li
                 key={notification.id}
                 onClick={onClose}
-                className="px-2 group py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-[#ECECEC] hover:text-[#000000] dark:hover:text-[#000000] cursor-pointer rounded-[8px] flex items-center gap-2"
+                className="px-2 group py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-offwhite hover:text-[#000000] dark:hover:text-[#000000] cursor-pointer rounded-[8px] flex items-center gap-2"
               >
                 <span>{notification.icon}</span>
                 {notification.message}

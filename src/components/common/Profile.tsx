@@ -9,13 +9,15 @@ import {
   DropdownSunIcon,
 } from "./Icons.tsx";
 
-const Profile = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
-
+const Profile = ({
+  isOpen,
+  onToggle,
+  onClose,
+}: {
+  isOpen: boolean;
+  onToggle: () => void;
+  onClose: () => void;
+}) => {
   const notifications = [
     {
       id: 1,
@@ -48,14 +50,13 @@ const Profile = () => {
     <div className="relative inline-block">
       {isOpen && (
         <div
-          className="fixed left-0 top-0 w-full h-full "
-          onClick={() => setIsOpen(false)}
+          className="fixed left-0 top-0 w-full h-full"
+          onClick={onClose}
         ></div>
       )}
-      {/* Bell Icon */}
       <button
         title="Profile"
-        onClick={toggleDropdown}
+        onClick={onToggle}
         className="relative p-2 rounded-full text-gray-600 dark:text-gray-300 focus:outline-none flex items-center gap-3"
       >
         <img
@@ -65,27 +66,19 @@ const Profile = () => {
         />
         <BottomArrow />
       </button>
-
-      {/* Dropdown Menu */}
       {isOpen && (
         <div className="absolute right-0 mt-2 w-50 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-lg z-10">
           <ul className="max-h-60 overflow-auto px-2 py-2">
-            {notifications.length > 0 ? (
-              notifications.map((notification) => (
-                <li
-                  onClick={() => setIsOpen(false)}
-                  key={notification.id}
-                  className="px-2 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer rounded-[8px] flex items-center gap-2"
-                >
-                  <span>{notification.icon}</span>
-                  {notification.message}
-                </li>
-              ))
-            ) : (
-              <li className="px-4 py-2 text-sm text-gray-500 dark:text-gray-400">
-                No new notifications
+            {notifications.map((notification) => (
+              <li
+                key={notification.id}
+                onClick={onClose}
+                className="px-2 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer rounded-[8px] flex items-center gap-2"
+              >
+                <span>{notification.icon}</span>
+                {notification.message}
               </li>
-            )}
+            ))}
           </ul>
         </div>
       )}

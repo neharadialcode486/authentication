@@ -17,6 +17,12 @@ import Theme from "./common/Theme.tsx";
 
 const Dashboard = () => {
   const [navOpen, setNavOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+
+  const toggleDropdown = (dropdownName: string) => {
+    setOpenDropdown((prev) => (prev === dropdownName ? null : dropdownName));
+  };
+
   return (
     <div className="">
       <div className="flex sm:bg-[#F4F2F3] dark:bg-[#2C2646] dark:bg-opacity-50">
@@ -25,11 +31,27 @@ const Dashboard = () => {
           <div className="bg-white dark:bg-[#2C2646]  sm:h-[100px] h-[70px] md:flex justify-between items-center px-8 hidden ">
             <p className="text-[24px] font-semibold">Dashboard</p>
             <div className="flex items-center gap-2">
-              <Message />
-              <NotificationDropdown />
+              <Message
+                isOpen={openDropdown === "message"}
+                onToggle={() => toggleDropdown("message")}
+                onClose={() => setOpenDropdown(null)}
+              />
+              <NotificationDropdown
+                isOpen={openDropdown === "notification"}
+                onToggle={() => toggleDropdown("notification")}
+                onClose={() => setOpenDropdown(null)}
+              />
               <Theme />
-              <LanguageSelector />
-              <Profile />
+              <LanguageSelector
+                isOpen={openDropdown === "language"}
+                onToggle={() => toggleDropdown("language")}
+                onClose={() => setOpenDropdown(null)}
+              />
+              <Profile
+                isOpen={openDropdown === "profile"}
+                onToggle={() => toggleDropdown("profile")}
+                onClose={() => setOpenDropdown(null)}
+              />
             </div>
           </div>
           <div
